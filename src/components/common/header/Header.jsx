@@ -3,14 +3,14 @@ import Navbar from '../navbar';
 
 function Header() {
   return (
-    <section>
+    <header>
       <section>
         <a href="/">logo</a>
       </section>
       <section>
         <Navbar />
       </section>
-    </section>
+    </header>
   );
 }
 
