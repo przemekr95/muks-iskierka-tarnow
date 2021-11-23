@@ -1,4 +1,4 @@
-import './App.scss';
+import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Club from './components/pages/club';
@@ -11,7 +11,7 @@ import { Header, Footer } from './components/common';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header />
       <Router>
         <Routes>

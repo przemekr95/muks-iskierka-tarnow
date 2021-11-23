@@ -1,0 +1,52 @@
+@import './../../../styles/_style.scss';
+
+$button-shadow: 0 1px 4px 2px rgba(64, 64, 64, 0.08);
+
+.button {
+  padding: 10px 40px;
+  font-size: 12px;
+  box-shadow: none;
+  border: none;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin: 20px;
+  outline: none;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: background .3s;
+  font-weight: bold;
+}
+
+.button:focus {
+  border: 2px solid $muks-orange;
+}
+
+.primary {
+  background: $muks-blue;
+  color: $muks-white;
+}
+
+.primary:hover {
+  background: darken($muks-blue, 10%);
+}
+
+.secondary {
+  background: $muks-yellow;
+  color: $muks-black;
+}
+
+.secondary:hover {
+  background: lighten($muks-yellow, 10%);
+}
+
+.round {
+  border-radius: 8px;
+}
+
+.square {
+  border-radius: 0;
+}
+
+.pill {
+  border-radius: 16px;
+}
