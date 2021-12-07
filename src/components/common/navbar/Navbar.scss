@@ -1,0 +1,16 @@
+@import './../../../styles/style';
+
+.navbar {
+  background-color: $muks-blue;
+  color: $muks-white;
+}
+
+.navbar-list {
+  display: inline-block;
+  padding: 10px;
+}
+
+.navbar-list-item {
+  text-decoration: none;
+  padding: 5px;
+}

@@ -1,5 +1,26 @@
-$muks-yellow: #FEC302;
-$muks-orange: #E0760D;
-$muks-blue: #282A7E;
-$muks-white: #ffffff;
 $muks-black: #000000;
+$muks-blue: #282A7E;
+$muks-orange: #E0760D;
+$muks-white: #ffffff;
+$muks-yellow: #FEC302;
+
+
+.black_text {
+  color: $muks-black;
+}
+
+.blue_text {
+  color: $muks-blue;
+}
+
+.orange_text {
+  color: $muks-orange;
+}
+
+.white_text {
+  color: $muks-white;
+}
+
+.yellow_text {
+  color: $muks-yellow;
+}

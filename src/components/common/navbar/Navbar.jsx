@@ -1,24 +1,40 @@
 import React from 'react';
+import Text from '../typography/text';
+
+import './Navbar.scss';
 
 function Navbar() {
+
+  const navItems = [
+    { name: 'Strona Główna', link: '/' },
+    { name: 'Aktualności', link: 'https://www.facebook.com/MUKSIskierkaTarnow' },
+    { name: 'Klub', link: '/club' },
+    { name: 'Drużyna', link: '/team' },
+    { name: 'Kontakt', link: '/contact' }
+  ];
+
+  const nav = navItems.map(item => (
+    <li
+      key={item.name}
+      className="navbar-list"
+    >
+      <a
+        href={item.link}
+        className="navbar-list-item"
+      >
+        <Text
+          text={item.name}
+          color="white_text"
+          font="regular_font"
+        />
+      </a>
+    </li>
+  ));
+
   return (
-    <nav>
+    <nav className="navbar">
       <ul>
-        <li>
-          <a href="/">Strona Główna</a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/MUKSIskierkaTarnow">Aktualności</a>
-        </li>
-        <li>
-          <a href="/club">Klub</a>
-        </li>
-        <li>
-          <a href="/team">Drużyna</a>
-        </li>
-        <li>
-          <a href="/contact">Kontakt</a>
-        </li>
+        {nav}
       </ul>
     </nav>
   );
