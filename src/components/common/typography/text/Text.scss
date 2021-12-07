@@ -1,0 +1,45 @@
+@import './../../../../styles/style';
+
+.default_text {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  letter-spacing: 0;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.inherit_size {
+  font-size: inherit;
+}
+
+.inherit_font {
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  text-transform: inherit;
+}
+
+.small_size {
+  font-size: 16px
+}
+
+.extra_small_size {
+  font-size: 14px
+}
+
+.ultra_small_size {
+  font-size: 12px
+}
+
+.ultra_ultra_small_size {
+  font-size: 8px
+}
+
+.large_size {
+  font-size: 18px
+}
+
+.extra_large_size {
+  font-size: 24px
+}

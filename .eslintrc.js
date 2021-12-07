@@ -326,5 +326,7 @@ module.exports = {
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
     'react/jsx-wrap-multilines': 'off',
+    'import/no-extraneous-dependencies': ['error',  {'devDependencies': true}],
+    'react/jsx-props-no-spreading': 'off',
   },
 };
