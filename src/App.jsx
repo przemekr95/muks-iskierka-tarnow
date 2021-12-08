@@ -23,7 +23,7 @@ function App() {
           <Route path="/test" element={<Test />} />
         </Routes>
       </Router>
-      <Footer />
+      <Footer text="MUKS Iskierka Tarnów © Przemek Rura 2022" />
     </div>
   );
 }
