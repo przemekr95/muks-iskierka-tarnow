@@ -1,9 +1,27 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import Text from '../typography/text';
 
 import './Footer.scss';
 
-function Footer() {
-  return <footer>footer</footer>;
-}
+const Footer = props => {
+  const {
+    text
+  } = props;
+
+  return (
+    <footer className="footer_wrapper">
+      <Text
+        text={text}
+        color="light_grey_text"
+        font="thin_font"
+      />
+    </footer>
+  );
+};
+
+Footer.propTypes = {
+  text: PropTypes.string.isRequired,
+};
 
 export default Footer;

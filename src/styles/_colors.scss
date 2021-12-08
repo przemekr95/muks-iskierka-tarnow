@@ -3,6 +3,8 @@ $muks-blue: #282A7E;
 $muks-orange: #E0760D;
 $muks-white: #ffffff;
 $muks-yellow: #FEC302;
+$muks-grey: #404040;
+$muks-light-grey: #afafaf;
 
 
 .black_text {
@@ -23,4 +25,8 @@ $muks-yellow: #FEC302;
 
 .yellow_text {
   color: $muks-yellow;
+}
+
+.light_grey_text {
+  color: $muks-light-grey
 }
