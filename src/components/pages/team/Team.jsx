@@ -1,7 +1,15 @@
 import React from 'react';
 
+import './Team.scss';
+
 function Team() {
-  return <section>Team</section>;
+  return (
+    <div className="wrapper">
+      <section className="wrapper_team">
+        <div>Zespół</div>
+      </section>
+    </div>
+  );
 }
 
 export default Team;
