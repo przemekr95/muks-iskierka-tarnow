@@ -1,0 +1,14 @@
+.wrapper_club {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-content: center;
+  max-width: 1376px;
+  flex-direction: column;
+}
+
+.club_paragraph {
+  background-color: green;
+  margin: 10px 0;
+  height: 500px;
+}
