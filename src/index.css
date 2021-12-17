@@ -12,3 +12,18 @@ ul {
 li {
   list-style: none;
 }
+
+.wrapper {
+  margin: auto;
+  max-width: 1400px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}

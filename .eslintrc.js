@@ -328,5 +328,6 @@ module.exports = {
     'react/jsx-wrap-multilines': 'off',
     'import/no-extraneous-dependencies': ['error',  {'devDependencies': true}],
     'react/jsx-props-no-spreading': 'off',
+    "arrow-body-style": ["error", "as-needed"]
   },
 };
