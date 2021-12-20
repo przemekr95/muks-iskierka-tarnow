@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../navbar';
 import Heading from '../typography/heading';
+import Image from '../image';
 
 import './Header.scss';
 
@@ -9,10 +10,10 @@ function Header() {
     <header className="header">
       <section className="header-title">
         <a href="/">
-          <img
-            className="header-logo"
-            src={`${process.env.PUBLIC_URL}/assets/iskierkaLogo.png`}
+          <Image
+            src="/assets/iskierkaLogo.png"
             alt="Logo MUKS Iskierka Tarnów"
+            className="header-logo"
           />
         </a>
         <div>
@@ -29,10 +30,10 @@ function Header() {
           />
         </div>
         <a href="https://www.tarnow.pl/">
-          <img
-            className="header-logo"
-            src={`${process.env.PUBLIC_URL}/assets/herbTarnow.png`}
+          <Image
+            src="/assets/herbTarnow.png"
             alt="Herb Miasta Tarnów"
+            className="header-logo"
           />
         </a>
       </section>
