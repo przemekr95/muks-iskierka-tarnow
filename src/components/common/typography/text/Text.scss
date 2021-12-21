@@ -2,7 +2,7 @@
 
 .default_text {
   margin: 0;
-  padding: 0;
+  padding: 10;
   line-height: 1;
   letter-spacing: 0;
   text-decoration: none;
@@ -18,6 +18,11 @@
   font-weight: inherit;
   font-style: inherit;
   text-transform: inherit;
+}
+
+.regular_size {
+  font-size: 18px;
+  margin: 20px 0;
 }
 
 .small_size {
@@ -42,4 +47,12 @@
 
 .extra_large_size {
   font-size: 24px
+}
+
+.regular_line {
+  line-height: 1.5;
+}
+
+.large_line {
+  line-height: 2;
 }

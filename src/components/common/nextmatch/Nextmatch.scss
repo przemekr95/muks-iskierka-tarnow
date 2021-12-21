@@ -1,6 +1,8 @@
+@import './../../../styles/_style.scss';
+
 .nextmatch_wrapper {
   width: 100%;
   height: 100%;
-  border: solid 3px black;
+  border: solid 2px $muks-grey;
   border-radius: 8px;
 }

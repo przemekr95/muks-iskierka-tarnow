@@ -1,14 +1,15 @@
 import React from 'react';
-import Text from '../typography/text';
+import Heading from '../typography/heading';
 
 import './Sponsors.scss';
 
 const Sponsors = () => (
   <div className="wrapper_sponsors">
-    <Text
+    <Heading
+      color="blue_text"
+      appearance="heading_3"
       text="Sponsorzy"
-      color="black_text"
-      font="regular_font"
+      tag="h3"
     />
   </div>
 );

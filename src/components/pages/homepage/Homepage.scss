@@ -1,24 +1,26 @@
 .wrapper_home {
   display: flex;
   margin: auto;
-  justify-content: space-between;
   align-content: center;
   max-width: 1376px;
   flex-direction: column;
 }
 
+.home_image {
+  width: 100%;
+  margin: 40px 0;
+}
+
 .home_info {
   flex-direction: column;
   width: 60%;
-  background-color: blue;
-  height: 1000px;
-  margin: 10px 0;
+  margin: 60px 0;
 }
 
 .home_schedule {
   flex-direction: column;
   width: 30%;
-  margin: 10px 0;
+  margin: 60px 0;
 }
 
 .next_match {

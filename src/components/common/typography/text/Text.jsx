@@ -10,10 +10,11 @@ const Text = props => {
     tag: Tag,
     text,
     size,
+    lineHeight,
     ...renderableProps
   } = props;
 
-  const composedClassName = `default_text ${size} ${color} ${font}`;
+  const composedClassName = `default_text ${size} ${color} ${font} ${lineHeight}`;
   return (
     <Tag {...renderableProps} className={composedClassName}>
       {text}
@@ -27,13 +28,15 @@ Text.propTypes = {
   tag: PropTypes.string,
   text: PropTypes.string.isRequired,
   size: PropTypes.string,
+  lineHeight: PropTypes.string
 };
 
 Text.defaultProps = {
   color: 'black_text',
   font: 'inherit_font',
   tag: 'span',
-  size: 'inherit_size'
+  size: 'inherit_size',
+  lineHeight: 'regular_line'
 };
 
 export default Text;
