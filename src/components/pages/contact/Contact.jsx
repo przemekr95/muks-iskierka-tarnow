@@ -5,11 +5,11 @@ import './Contact.scss';
 function Contact() {
   return (
     <div className="wrapper">
-      <section className="wrapper_contact">
-        <div className="contact_info">
+      <section className="row wrapper-page">
+        <div className="contact-info">
           info
         </div>
-        <div className="contact_img">
+        <div className="contact-img">
           zdjęcie
         </div>
       </section>

@@ -1,13 +1,6 @@
-.wrapper_club {
-  display: flex;
-  margin: auto;
-  justify-content: space-between;
-  align-content: center;
-  max-width: 1376px;
-  flex-direction: column;
-}
+@import './../../../styles/_style.scss';
 
-.club_paragraph {
+.club-paragraph {
   background-color: green;
   margin: 10px 0;
   height: 500px;

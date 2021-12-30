@@ -1,3 +1,31 @@
 @import '_colors.scss';
 @import '_breakpoints.scss';
 @import '_fonts.scss';
+
+.wrapper {
+  margin: auto;
+  max-width: 1400px;
+}
+
+.wrapper-page {
+  display: flex;
+  margin: auto;
+  max-width: 1376px;
+  align-content: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box-shadow {
+  box-shadow: 0 0 20px 8px #d0d0d0
+}

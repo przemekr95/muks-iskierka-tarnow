@@ -1,10 +1,6 @@
-.wrapper_team {
-  display: flex;
-  margin: auto;
-  justify-content: space-between;
-  align-content: center;
-  max-width: 1376px;
-  flex-direction: column;
+@import './../../../styles/_style.scss';
+
+.wrapper-team {
   background-color: green;
   height: 2000px;
 }

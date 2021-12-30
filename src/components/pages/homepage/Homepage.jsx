@@ -11,7 +11,7 @@ import './Homepage.scss';
 function Homepage() {
 
   const HomeInfo = () => (
-    <div className="home_info">
+    <div className="home-info">
       <Heading
         color="blue_text"
         appearance="heading_2_bold"
@@ -28,14 +28,14 @@ function Homepage() {
       <Image
         src="/assets/images/homepage.jpg"
         alt="Drużyna MUKS Iskierka Tarnów"
-        className="home_image boxShadow"
+        className="home-image box-shadow"
       />
     </div>
   );
 
   const HomeSchedule = () => (
-    <div className="home_schedule">
-      <div className="next_match">
+    <div className="home-schedule">
+      <div className="next-match">
         <Nextmetch />
       </div>
       <div className="schedule">
@@ -46,7 +46,7 @@ function Homepage() {
 
   return (
     <div className="wrapper">
-      <section className="wrapper_home">
+      <section className="column wrapper-page">
         <div className="row">
           <HomeInfo />
           <HomeSchedule />

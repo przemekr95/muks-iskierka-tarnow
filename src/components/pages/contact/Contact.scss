@@ -1,20 +1,13 @@
-.wrapper_contact {
-  display: flex;
-  margin: auto;
-  justify-content: space-between;
-  align-content: center;
-  max-width: 1376px;
-  flex-direction: row;
-}
+@import './../../../styles/_style.scss';
 
-.contact_info {
+.contact-info {
   height: 800px;
   width: 100%;
   background-color: aqua;
   margin: 10px;
 }
 
-.contact_img {
+.contact-img {
   height: 800px;
   width: 100%;
   background-color: aquamarine;
