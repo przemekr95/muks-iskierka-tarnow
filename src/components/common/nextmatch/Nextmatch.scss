@@ -1,6 +1,16 @@
-.nextmatch_wrapper {
+@import './../../../styles/_style.scss';
+
+.nextmatch-wrapper {
   width: 100%;
   height: 100%;
-  border: solid 3px black;
-  border-radius: 8px;
+  border-radius: 20px;
+  flex-direction: column;
+}
+
+.nextmatch-teams {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }

@@ -1,31 +1,25 @@
-.wrapper_home {
-  display: flex;
-  margin: auto;
-  justify-content: space-between;
-  align-content: center;
-  max-width: 1376px;
-  flex-direction: column;
+@import './../../../styles/_style.scss';
+
+.home-image {
+  width: 100%;
+  margin: 40px 0;
 }
 
-.home_info {
+.home-info {
   flex-direction: column;
   width: 60%;
-  background-color: blue;
-  height: 1000px;
-  margin: 10px 0;
+  margin: 60px 0;
 }
 
-.home_schedule {
+.home-schedule {
   flex-direction: column;
   width: 30%;
-  margin: 10px 0;
+  margin: 60px 0;
 }
 
-.next_match {
-  margin: 20px auto;
+.next-match {
+  margin: 0 auto;
   width: 90%;
-  height: 200px;
-
 }
 
 .schedule {

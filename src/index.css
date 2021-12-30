@@ -3,6 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   text-align: center;
+  background-color:#f2f2f2;
 }
 
 ul {
@@ -11,19 +12,4 @@ ul {
 }
 li {
   list-style: none;
-}
-
-.wrapper {
-  margin: auto;
-  max-width: 1400px;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
 }

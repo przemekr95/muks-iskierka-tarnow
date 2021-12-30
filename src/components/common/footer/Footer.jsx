@@ -10,7 +10,7 @@ const Footer = props => {
   } = props;
 
   return (
-    <footer className="footer_wrapper">
+    <footer className="footer-wrapper">
       <Text
         text={text}
         color="light_grey_text"

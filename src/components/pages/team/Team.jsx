@@ -5,7 +5,7 @@ import './Team.scss';
 function Team() {
   return (
     <div className="wrapper">
-      <section className="wrapper_team">
+      <section className="wrapper-team column wrapper-page">
         <div>Zespół</div>
       </section>
     </div>
