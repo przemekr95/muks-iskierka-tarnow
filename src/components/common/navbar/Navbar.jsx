@@ -1,7 +1,7 @@
 import React from 'react';
 import Text from '../typography/text';
 
-import './Navbar.scss';
+import './navbar.scss';
 
 function Navbar() {
 

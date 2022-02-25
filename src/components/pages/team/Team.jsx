@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Team.scss';
+import './team.scss';
 
 function Team() {
   return (

@@ -2,7 +2,7 @@ import React from 'react';
 import Text from '../typography/text';
 import Heading from '../typography/heading';
 
-import './Schedule.scss';
+import './schedule.scss';
 
 const Schedule = () => (
   <div className="nextmatch-wrapper box-shadow">

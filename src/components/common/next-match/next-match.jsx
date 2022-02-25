@@ -3,9 +3,9 @@ import Text from '../typography/text';
 import Heading from '../typography/heading';
 import Image from '../image';
 
-import './Nextmatch.scss';
+import './next-match.scss';
 
-const Nextmatch = () => (
+const NextMatch = () => (
   <div className="nextmatch-wrapper box-shadow">
     <Heading
       color="blue_text"
@@ -65,4 +65,4 @@ const Nextmatch = () => (
   </div>
 );
 
-export default Nextmatch;
+export default NextMatch;

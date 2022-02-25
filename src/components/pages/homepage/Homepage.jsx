@@ -1,12 +1,12 @@
 import React from 'react';
-import Nextmetch from '../../common/nextmatch';
+import NextMatch from '../../common/next-match';
 import Schedule from '../../common/schedule';
 import Sponsors from '../../common/sponsors';
 import Heading from '../../common/typography/heading';
 import Text from '../../common/typography/text';
 import Image from '../../common/image';
 
-import './Homepage.scss';
+import './homepage.scss';
 
 function Homepage() {
 
@@ -36,7 +36,7 @@ function Homepage() {
   const HomeSchedule = () => (
     <div className="home-schedule">
       <div className="next-match">
-        <Nextmetch />
+        <NextMatch />
       </div>
       <div className="schedule">
         <Schedule />

@@ -1,7 +1,7 @@
 import React from 'react';
-import Image from '../../common/image/Image';
+import Image from '../../common/image/image';
 
-import './Test.scss';
+import './test.scss';
 
 function Test() {
   return (
