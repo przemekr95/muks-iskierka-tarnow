@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Text from '../text';
 
-import './Heading.scss';
+import './heading.scss';
 
 const Heading = props => {
   const {

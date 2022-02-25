@@ -1,3 +1,3 @@
-import Club from './Club';
+import Club from './club';
 
 export default Club;

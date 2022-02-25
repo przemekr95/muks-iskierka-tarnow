@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Contact.scss';
+import './contact.scss';
 
 function Contact() {
   return (

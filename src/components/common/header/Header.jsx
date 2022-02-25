@@ -3,7 +3,7 @@ import Navbar from '../navbar';
 import Heading from '../typography/heading';
 import Image from '../image';
 
-import './Header.scss';
+import './header.scss';
 
 function Header() {
   return (

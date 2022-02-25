@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Text from '../typography/text';
 
-import './Footer.scss';
+import './footer.scss';
 
 const Footer = props => {
   const {

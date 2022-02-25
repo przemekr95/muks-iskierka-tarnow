@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Club.scss';
+import './club.scss';
 
 function Club() {
   return (

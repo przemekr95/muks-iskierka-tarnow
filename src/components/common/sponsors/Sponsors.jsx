@@ -2,7 +2,7 @@ import React from 'react';
 import Heading from '../typography/heading';
 import Image from '../image';
 
-import './Sponsors.scss';
+import './sponsors.scss';
 
 const Sponsors = () => (
   <div className="wrapper-sponsors">
