@@ -6,7 +6,7 @@ import Image from '../image';
 import './next-match.scss';
 
 const NextMatch = () => (
-  <div className="nextmatch-wrapper box-shadow">
+  <div className="next-match-wrapper box-shadow">
     <Heading
       color="blue_text"
       appearance="heading_3"
@@ -25,7 +25,7 @@ const NextMatch = () => (
       font="thin_font"
       tag="p"
     />
-    <div className="nextmatch-teams">
+    <div className="next-match-teams">
       <div>
         <Text
           text="MUKS Iskierka Tarnów"
