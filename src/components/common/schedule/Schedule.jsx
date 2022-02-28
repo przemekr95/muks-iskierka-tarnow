@@ -5,7 +5,7 @@ import Heading from '../typography/heading';
 import './schedule.scss';
 
 const Schedule = () => (
-  <div className="nextmatch-wrapper box-shadow">
+  <div className="next-match-wrapper box-shadow">
     <Heading
       color="blue_text"
       appearance="heading_3"
