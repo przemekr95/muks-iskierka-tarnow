@@ -237,7 +237,7 @@ module.exports = {
     'import/default': 'error',
     'import/no-named-as-default': 'error',
     'import/no-named-as-default-member': 'error',
-    'import/no-unresolved': 'error',
+    'import/no-unresolved': 'warn',
 
     'jsx-a11y/alt-text': 'warn',
     'jsx-a11y/click-events-have-key-events': 'warn',
