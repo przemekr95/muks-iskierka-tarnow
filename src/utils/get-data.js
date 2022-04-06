@@ -1,9 +1,7 @@
-export const getData = () => {
-    fetch('assets/text/text.json')
-    .then(function (response) {
-        return response.json();
-    })
-    .then(function (myJson) {
-        setData(myJson);
-    });
-}
+const getData = (path, setData) => {
+  fetch(`assets/data/${path}`)
+    .then(response => response.json())
+    .then(myJson => setData(myJson));
+};
+
+export default getData;

@@ -1,12 +1,17 @@
-import React from 'react';
-import Image from '../../common/image/image';
+import React, { useState, useEffect } from 'react';
+import getData from '../../../utils/get-data';
 
 import './test.scss';
 
 function Test() {
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    getData('test.json', setData);
+  }, []);
+  console.log(data);
   return (
     <section className="test-wrapper">
-      <Image src="/assets/iskierkaLogo.png" alt="Logo MUKS Iskierka Tarnów" className="header-logo" />
+      {data.position}
     </section>
   );
 }
