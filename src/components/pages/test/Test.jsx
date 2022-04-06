@@ -12,3 +12,10 @@ function Test() {
 }
 
 export default Test;
+
+/*
+    <section className="test-wrapper">
+      <Image src="/assets/iskierkaLogo.png"
+      alt="Logo MUKS Iskierka Tarnów" className="header-logo" />
+    </section>
+*/
