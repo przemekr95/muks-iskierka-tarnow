@@ -1,26 +1,30 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import NextMatch from '../../common/next-match';
 import Schedule from '../../common/schedule';
 import Sponsors from '../../common/sponsors';
 import Heading from '../../common/typography/heading';
 import Text from '../../common/typography/text';
 import Image from '../../common/image';
+import getData from '../../../utils/get-data';
 
 import './homepage.scss';
 
 function Homepage() {
-
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    getData('homepage.json', setData);
+  }, []);
   const HomeInfo = () => (
     <div className="home-info">
       <Heading
         color="blue_text"
         appearance="heading_2_bold"
-        text="Nasza drużyna"
+        text={data.headingOne}
         tag="h2"
       />
       <Text
         tag="p"
-        text="Międzyszkolny Uczniowski Klub Sportowy Iskierka Tarnów to blisko 27 lat tradycji! Został założony 22 czerwca 1994 roku. Dziś dzięki przychylności władz Miasta Tarnowa nasz klub prężnie rozwija się szczególnie pod kątem siatkarskim. Prowadzimy szkolenie w różnych grupach rocznikowych dzieci, młodzieży oraz dorosłych, począwszy od mini siatkówki, poprzez młodzików, kadetów i juniorów, aż po grupę seniorów. Wszystkie grupy szkoleniowe są zgłoszone do oficjalnych rozgrywek MZPS. Łączy nas pasja do sportu! Zachęcamy wszystkich do współtworzenia naszej społeczności, dla której liczy się sport i rywalizacja. Zapraszamy do kibicowania naszym zawodnikom."
+        text={data.homepageDescription}
         font="regular_font"
         size="regular_size"
         lineHeight="large_line"
