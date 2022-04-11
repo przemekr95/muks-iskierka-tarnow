@@ -10,10 +10,12 @@ import getData from '../../../utils/get-data';
 import './homepage.scss';
 
 function Homepage() {
+
   const [data, setData] = useState([]);
   useEffect(() => {
     getData('homepage.json', setData);
   }, []);
+
   const HomeInfo = () => (
     <div className="home-info">
       <Heading

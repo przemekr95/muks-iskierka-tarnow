@@ -1,17 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import getData from '../../../utils/get-data';
+import React from 'react';
+import Text from '../../common/typography/text';
 
 import './test.scss';
 
 function Test() {
-  const [data, setData] = useState([]);
-  useEffect(() => {
-    getData('test.json', setData);
-  }, []);
-  console.log(data);
   return (
     <section className="test-wrapper">
-      {data.position}
+      <Text text="Test" />
     </section>
   );
 }
