@@ -1,12 +1,12 @@
 import React from 'react';
-import Image from '../../common/image/image';
+import Text from '../../common/typography/text';
 
 import './test.scss';
 
 function Test() {
   return (
     <section className="test-wrapper">
-      <Image src="/assets/iskierkaLogo.png" alt="Logo MUKS Iskierka Tarnów" className="header-logo" />
+      <Text text="Test" />
     </section>
   );
 }

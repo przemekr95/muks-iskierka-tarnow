@@ -4,6 +4,7 @@ import Image from '../image';
 
 import './sponsors.scss';
 
+
 const Sponsors = () => (
   <div className="wrapper-sponsors">
     <Heading
@@ -56,5 +57,6 @@ const Sponsors = () => (
     </div>
   </div>
 );
+
 
 export default Sponsors;
