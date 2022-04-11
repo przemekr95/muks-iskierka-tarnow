@@ -1,0 +1,19 @@
+@import './../../../styles/style';
+
+.carousel-wrapper {
+  padding: 60px 0;
+}
+
+.rec.rec-arrow {
+  background: $muks-blue;
+  color: $muks-white;
+}
+
+.rec.rec-arrow:hover{
+  background: $muks-blue;
+  opacity: .4;
+}
+
+.rec.rec-dot_active{
+  background: $muks-blue;
+}
