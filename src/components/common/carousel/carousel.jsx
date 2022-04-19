@@ -14,13 +14,11 @@ const Carousel = props => {
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
     { width: 576, itemsToShow: 2 },
-    { width: 768, itemsToShow: 2 },
     { width: 992, itemsToShow: 3 },
-    { width: 1200, itemsToShow: 3 },
   ];
 
   return (
-    <ElasticCarousel className="carousel-wrapper" breakPoints={breakPoints} itemsToScroll={1}>
+    <ElasticCarousel breakPoints={breakPoints} enableAutoPlay autoPlaySpeed={5000}>
       {items.map(item => (
         <a href={item.link} key={item.id} target="_blank">
           <Image

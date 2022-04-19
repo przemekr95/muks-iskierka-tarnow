@@ -1,19 +1,18 @@
 @import './../../../styles/style';
 
-.carousel-wrapper {
-  padding: 60px 0;
-}
+//Style for react-elastic-carousel
 
 .rec.rec-arrow {
   background: $muks-blue;
   color: $muks-white;
 }
 
-.rec.rec-arrow:hover{
-  background: $muks-blue;
-  opacity: .4;
-}
-
 .rec.rec-dot_active{
   background: $muks-blue;
+}
+
+.rec.rec-carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
