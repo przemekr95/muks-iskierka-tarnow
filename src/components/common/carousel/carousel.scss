@@ -1,0 +1,18 @@
+@import './../../../styles/style';
+
+//Style for react-elastic-carousel
+
+.rec.rec-arrow {
+  background: $muks-blue;
+  color: $muks-white;
+}
+
+.rec.rec-dot_active{
+  background: $muks-blue;
+}
+
+.rec.rec-carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

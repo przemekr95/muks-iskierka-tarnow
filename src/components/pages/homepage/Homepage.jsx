@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import NextMatch from '../../common/next-match';
 import Schedule from '../../common/schedule';
-import Sponsors from '../../common/sponsors';
+import Sponsors from '../../views/sponsors';
 import Heading from '../../common/typography/heading';
 import Text from '../../common/typography/text';
 import Image from '../../common/image';

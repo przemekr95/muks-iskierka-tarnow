@@ -6,7 +6,7 @@ const Image = props => {
   const {
     src,
     alt,
-    className
+    className,
   } = props;
 
   return <img src={`${process.env.PUBLIC_URL}${src}`} alt={alt} className={className} />;
@@ -15,7 +15,7 @@ const Image = props => {
 Image.propTypes = {
   src: PropTypes.string.isRequired,
   alt: PropTypes.string.isRequired,
-  className: PropTypes.string.isRequired
+  className: PropTypes.string.isRequired,
 };
 
 export default Image;

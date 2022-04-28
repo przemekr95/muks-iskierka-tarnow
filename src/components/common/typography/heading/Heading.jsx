@@ -55,7 +55,6 @@ Heading.propTypes = {
   appearance: PropTypes.string.isRequired,
   tag: PropTypes.string,
   text: PropTypes.string.isRequired,
-
 };
 
 Heading.defaultProps = {
