@@ -20,6 +20,12 @@
   justify-content: space-between;
 }
 
+.row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
 .column {
   display: flex;
   flex-direction: column;

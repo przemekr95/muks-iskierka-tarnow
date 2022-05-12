@@ -5,7 +5,7 @@ function Test() {
 
   return (
     <div className="test-wrapper">
-      <span>test</span>
+      test
     </div>
   );
 }
