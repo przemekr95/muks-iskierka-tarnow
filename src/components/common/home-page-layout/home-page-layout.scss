@@ -1,0 +1,18 @@
+@import './../../../styles/style';
+
+.home-page-layout-container {
+  width: 50vw;
+  height: 50vw;
+  @media (max-width:991px){
+    width: 100vw;
+  }
+}
+
+.home-page-layout-img {
+  overflow:hidden;
+  object-fit: cover
+}
+
+.home-page-layout-text {
+background-color: inherit;
+}
