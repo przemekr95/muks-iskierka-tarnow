@@ -35,7 +35,7 @@ const HomePageLayout = props => {
 };
 
 HomePageLayout.propTypes = {
-  imagesList: PropTypes.string,
+  imagesList: PropTypes.arrayOf(PropTypes.array),
 };
 
 HomePageLayout.defaultProps = {
