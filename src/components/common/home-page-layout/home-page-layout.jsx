@@ -19,7 +19,7 @@ const HomePageLayout = props => {
         alt={item[2]}
         className="home-page-layout-container home-page-layout-img"
       />
-      <div className="home-page-layout-container home-page-layout-text">
+      <div className="home-page-layout-container home-page-layout-text center">
         {item[3]}
       </div>
     </li>
