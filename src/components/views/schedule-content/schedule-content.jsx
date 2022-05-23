@@ -8,7 +8,6 @@ const ScheduleContent = props => {
   const {
     title
   } = props;
-  console.log(title);
 
   return (
     <div>
