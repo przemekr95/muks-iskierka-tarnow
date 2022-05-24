@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Heading from '../../common/typography/heading/heading';
+import LastMatchContent from '../last-match-content/last-match-content';
 
 import './second-row-home-page.scss';
 
@@ -17,6 +18,7 @@ const SecondRowHomePage = props => {
         text={title}
         tag="h2"
       />
+      <LastMatchContent title={title} />
     </div>
   );
 };

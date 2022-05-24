@@ -34,6 +34,11 @@ const Heading = props => {
           size: 'heading_3_size',
           font: 'bold_font'
         };
+      case 'heading_3_large':
+        return {
+          size: 'heading_3_size_large',
+          font: 'bold_font'
+        };
       default:
         return null;
     }
