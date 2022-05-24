@@ -1,0 +1,23 @@
+{
+  "lastMatch": [
+    {
+      "id": "1",
+      "home": "MUKS Iskierka Tarnów",
+      "homeLogo": "/assets/teamsLogo/iskierkaTarnow.png",
+      "homeLogoAlt": "Logo gospodarza meczu",
+      "away": "MKS Ryglice",
+      "awayLogo": "/assets/teamsLogo/mksRyglice.jpg",
+      "awayLogoAlt": "Logo gościa meczu",
+      "date": "Wrzesień 01, 2022",
+      "homeSet": 3,
+      "awaySet": 2,
+      "points": [
+        "20:25",
+        "18:25",
+        "25:21",
+        "25:23",
+        "15:13"
+      ]
+    }
+  ]
+}
