@@ -1,0 +1,25 @@
+@import "../../../styles/style";
+
+.hero-image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: top;
+}
+
+.hero-image-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-image-next-match{
+  margin: -6px;
+
+  @media (min-width: 1200px){
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+  }
+}
