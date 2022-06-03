@@ -1,30 +1,30 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import HomePageLayout from '../../common/home-page-layout/home-page-layout';
-import FirstRowHomePage from '../first-row-home-page/first-row-home-page';
-import SecondRowHomePage from '../second-row-home-page/second-row-home-page';
-import ThirdRowHomePage from '../third-row-home-page/third-row-home-page';
+import HomePageLayout from '../../../common/home-page-layout';
+import FirstRowHomepage from '../first-row-homepage';
+import SecondRowHomepage from '../second-row-homepage';
+import ThirdRowHomepage from '../third-row-homepage';
 
-import './home-page-content.scss';
+import './homepage-content.scss';
 
-const HomePageContent = props => {
+const HomepageContent = props => {
   const {
     homepageTexts
   } = props;
 
   const firstRow =
-    <FirstRowHomePage
+    <FirstRowHomepage
       title={homepageTexts.headingOne}
       description={homepageTexts.homepageDescription}
     />;
 
   const secondRow =
-    <SecondRowHomePage
+    <SecondRowHomepage
       title={homepageTexts.headingTwo}
     />;
 
   const thirdRow =
-    <ThirdRowHomePage
+    <ThirdRowHomepage
       title={homepageTexts.headingThree}
     />;
 
@@ -42,12 +42,12 @@ const HomePageContent = props => {
   );
 };
 
-HomePageContent.propTypes = {
+HomepageContent.propTypes = {
   homepageTexts: PropTypes.objectOf(PropTypes.string),
 };
 
-HomePageContent.defaultProps = {
+HomepageContent.defaultProps = {
   homepageTexts: {},
 };
 
-export default HomePageContent;
+export default HomepageContent;

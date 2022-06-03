@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Heading from '../../common/typography/heading/heading';
-import Text from '../../common/typography/text/text';
+import Heading from '../../../common/typography/heading';
+import Text from '../../../common/typography/text';
 
-import './first-row-home-page.scss';
+import './first-row-homepage.scss';
 
-const FirstRowHomePage = props => {
+const FirstRowHomepage = props => {
   const {
     title,
     description
@@ -30,14 +30,9 @@ const FirstRowHomePage = props => {
   );
 };
 
-FirstRowHomePage.propTypes = {
-  title: PropTypes.string,
-  description: PropTypes.string,
+FirstRowHomepage.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
 };
 
-FirstRowHomePage.defaultProps = {
-  title: '',
-  description: '',
-};
-
-export default FirstRowHomePage;
+export default FirstRowHomepage;
