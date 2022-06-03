@@ -11,7 +11,7 @@ import { Header, Footer } from './components/common';
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <Router>
         <Routes>
@@ -24,7 +24,7 @@ function App() {
         </Routes>
       </Router>
       <Footer text="MUKS Iskierka Tarnów © Przemek Rura 2022" />
-    </div>
+    </>
   );
 }
 

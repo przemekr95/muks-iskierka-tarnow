@@ -26,7 +26,7 @@ const HomePageLayout = props => {
   ));
 
   return (
-    <section>
+    <section className="home-page-layout">
       <ul>
         {listElement}
       </ul>
@@ -35,11 +35,7 @@ const HomePageLayout = props => {
 };
 
 HomePageLayout.propTypes = {
-  imagesList: PropTypes.arrayOf(PropTypes.array),
-};
-
-HomePageLayout.defaultProps = {
-  imagesList: 'PropTypes.string',
+  imagesList: PropTypes.arrayOf(PropTypes.array).isRequired,
 };
 
 export default HomePageLayout;
