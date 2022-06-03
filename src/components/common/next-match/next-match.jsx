@@ -1,6 +1,5 @@
 import React from 'react';
-import Text from '../typography/text';
-// import Heading from '../typography/heading';
+import Text from '../../atomic/typography/text';
 
 import './next-match.scss';
 

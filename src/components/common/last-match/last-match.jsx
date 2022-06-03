@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Text from '../typography/text';
-import Heading from '../typography/heading/heading';
-import Image from '../image/image';
+import Text from '../../atomic/typography/text';
+import Heading from '../../atomic/typography/heading';
+import Image from '../../atomic/image/image';
 import getData from '../../../utils/get-data';
 
 import './last-match.scss';

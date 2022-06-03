@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Text from '../typography/text';
+import Text from '../../atomic/typography/text';
 
 import './footer.scss';
 

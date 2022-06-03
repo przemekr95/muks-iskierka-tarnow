@@ -1,5 +1,5 @@
 import React from 'react';
-import Text from '../typography/text';
+import Text from '../../atomic/typography/text';
 
 import './navbar.scss';
 
@@ -30,7 +30,7 @@ function Navbar() {
       </a>
     </li>
   ));
-  console.log('NAC');
+
   return (
     <nav className="navbar">
       <ul>

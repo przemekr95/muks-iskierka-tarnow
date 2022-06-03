@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Image from '../image';
-import Heading from '../typography/heading';
+import Image from '../../atomic/image';
+import Heading from '../../atomic/typography/heading';
 import NextMatch from '../next-match/next-match';
 
 import './hero-image.scss';
