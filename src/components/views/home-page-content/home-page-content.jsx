@@ -36,9 +36,9 @@ const HomePageContent = props => {
   ];
 
   return (
-    <div>
+    <>
       <HomePageLayout imagesList={imagesList} />
-    </div>
+    </>
   );
 };
 

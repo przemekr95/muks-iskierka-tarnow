@@ -33,7 +33,7 @@ const LastMatch = () => {
   );
 
   return (
-    <div className="next-match-wrapper">
+    <div className="last-match-wrapper">
 
       <Image
         src={items.homeLogo}

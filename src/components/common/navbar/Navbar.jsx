@@ -30,7 +30,7 @@ function Navbar() {
       </a>
     </li>
   ));
-
+  console.log('NAC');
   return (
     <nav className="navbar">
       <ul>
