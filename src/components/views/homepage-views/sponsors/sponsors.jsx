@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Heading from '../../../common/typography/heading';
+import Heading from '../../../atomic/typography/heading';
 import Carousel from '../../../common/carousel';
 import getData from '../../../../utils/get-data';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Schedule from '../../../common/schedule';
-import Heading from '../../../common/typography/heading';
+import Heading from '../../../atomic/typography/heading';
 
 import './third-row-homepage.scss';
 

@@ -3,14 +3,10 @@ import Navbar from '../navbar/navbar';
 
 import './header.scss';
 
-const Header = () => {
-  console.log('rser');
-  return (
-    <header>
-      <Navbar />
-    </header>
-  );
-
-};
+const Header = () => (
+  <header>
+    <Navbar />
+  </header>
+);
 
 export default Header;

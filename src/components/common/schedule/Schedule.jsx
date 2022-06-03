@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Text from '../typography/text';
-import Image from '../image/image';
+import Text from '../../atomic/typography/text';
+import Image from '../../atomic/image';
 import getData from '../../../utils/get-data';
 
 import './schedule.scss';

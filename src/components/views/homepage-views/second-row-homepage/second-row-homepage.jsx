@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Heading from '../../../common/typography/heading';
+import Heading from '../../../atomic/typography/heading';
 import LastMatch from '../../../common/last-match';
 
 import './second-row-homepage.scss';

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Heading from '../../../common/typography/heading';
-import Text from '../../../common/typography/text';
+import Heading from '../../../atomic/typography/heading';
+import Text from '../../../atomic/typography/text';
 
 import './first-row-homepage.scss';
 
