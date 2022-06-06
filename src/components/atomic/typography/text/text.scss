@@ -22,7 +22,15 @@
 
 .regular_size {
   font-size: 18px;
-  margin: 20px 0;
+  margin: 10px 0;
+  @media (min-width: 1200px){
+    margin: 0;
+    font-size: 16px;
+  }
+  @media (max-width:991px){
+    margin: 5px 0;
+    font-size: 14px;
+  }
 }
 
 .small_size {

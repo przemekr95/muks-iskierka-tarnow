@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import Image from '../../atomic/image';
 
@@ -9,11 +9,23 @@ const HomePageLayout = props => {
     imagesList
   } = props;
 
-  const clientWidth = document.documentElement.clientWidth;
-  const isRow = clientWidth > 991 ? 'row' : 'column';
+  const [layout, setLayout] = useState('');
 
-  const listElement = imagesList.map(item => (
-    <li className={item[0] % 2 === 0 ? isRow : `${isRow}-reverse`} key={item[0]}>
+  const changeLayout = () => {
+    if (document.documentElement.clientWidth >= 991) {
+      setLayout('row');
+    } else {
+      setLayout('column');
+    }
+  };
+
+  useEffect(() => {
+    changeLayout();
+    window.addEventListener('resize', changeLayout);
+  });
+
+  const listElement = imagesList.map((item, index) => (
+    <li className={item[0] % 2 === 0 ? `${layout}` : `${layout}-reverse`} key={index}>
       <Image
         src={`/assets/images/${item[1]}`}
         alt={item[2]}
