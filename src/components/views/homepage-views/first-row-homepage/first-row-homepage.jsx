@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Heading from '../../../atomic/typography/heading';
+import HeadingHomepage from '../../../atomic/typography/heading-homepage';
 import Text from '../../../atomic/typography/text';
 
 import './first-row-homepage.scss';
@@ -12,13 +12,8 @@ const FirstRowHomepage = props => {
   } = props;
 
   return (
-    <div>
-      <Heading
-        color="blue_text"
-        appearance="heading_2_bold"
-        text={title}
-        tag="h2"
-      />
+    <div className="first-row-homepage">
+      <HeadingHomepage text={title} />
       <Text
         tag="p"
         text={description}

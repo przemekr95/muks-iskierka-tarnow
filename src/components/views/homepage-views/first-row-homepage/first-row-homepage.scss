@@ -1,0 +1,11 @@
+@import "../../../../styles/style";
+
+.first-row-homepage {
+  margin: 30px;
+  @media (max-width:991px){
+    padding: 40px;
+  }
+  @media (max-width:576px){
+    padding: 20px;
+  }
+}
