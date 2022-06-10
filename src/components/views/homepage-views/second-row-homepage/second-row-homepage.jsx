@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Heading from '../../../atomic/typography/heading';
+import HeadingHomepage from '../../../atomic/typography/heading-homepage';
 import LastMatch from '../../../common/last-match';
 
 import './second-row-homepage.scss';
@@ -12,12 +12,7 @@ const SecondRowHomepage = props => {
 
   return (
     <div>
-      <Heading
-        color="blue_text"
-        appearance="heading_2_bold"
-        text={title}
-        tag="h2"
-      />
+      <HeadingHomepage text={title} />
       <LastMatch />
     </div>
   );
