@@ -28,7 +28,6 @@
     "eject": "react-scripts eject",
     "eslint": "eslint --ext .js",
     "clean": "rm -rf node_modules",
-    "install": "npm install",
     "ci": "npm run clean && npm run install"
   },
   "eslintConfig": {

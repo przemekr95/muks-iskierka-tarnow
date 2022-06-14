@@ -1,13 +1,19 @@
 .last-match-wrapper{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .points-wrapper {
   margin: 5px;
 }
 
 .last-match-logo {
-  width: 200px;
+  width: 140px;
   max-height: 100%;
+  @media (min-width: 1200px){
+    width: 200px;
+  }
+  @media (max-width: 576px){
+    width: 100px;
+  } 
 }

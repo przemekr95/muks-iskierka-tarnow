@@ -23,5 +23,8 @@
 
 .heading_3_size_large {
   line-height: 1.25;
-  font-size: 40px;
+  font-size: 44px;
+  @media (max-width: 576px){
+    font-size: 32px;
+  }  
 }

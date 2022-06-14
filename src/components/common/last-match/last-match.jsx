@@ -46,10 +46,14 @@ const LastMatch = () => {
           text={countSet}
           appearance="heading_3_large"
           color="blue_text"
+          tag="h3"
         />
-        <div className="row">
-          {points}
-        </div>
+        <Text
+          text={points}
+          color="black_text"
+          font="thin_font"
+          size="small_size"
+        />
         <Text
           text={items.date}
           color="black_text"
