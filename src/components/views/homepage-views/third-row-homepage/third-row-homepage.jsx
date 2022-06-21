@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Schedule from '../../../common/schedule';
-import Heading from '../../../atomic/typography/heading';
+import HeadingHomepage from '../../../atomic/typography/heading-homepage';
 
 import './third-row-homepage.scss';
 
@@ -11,13 +11,8 @@ const ThirdRowHomepage = props => {
   } = props;
 
   return (
-    <div className="center">
-      <Heading
-        color="blue_text"
-        appearance="heading_2_bold"
-        text={title}
-        tag="h2"
-      />
+    <div>
+      <HeadingHomepage text={title} />
       <Schedule />
     </div>
   );
