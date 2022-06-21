@@ -1,6 +1,11 @@
 .schedule-wrapper {
-  width: 90%;
+  width: 95%;
   margin: auto;
+}
+
+.schedule-logo-box{
+  width: 70px;
+  padding: 0 20px;
 }
 
 .schedule-logo {
@@ -11,4 +16,20 @@
 .team-schedule {
   display: flex;
   align-items: center;
+}
+
+.schedule-date {
+  width: 100%;
+  max-width: 100px;
+}
+
+.team-schedule-box {
+  width: 100%;
+  max-width: 300px;
+  justify-content: space-between;
+}
+
+.team-schedule-name {
+  display: flex;
+  flex-direction: column;
 }

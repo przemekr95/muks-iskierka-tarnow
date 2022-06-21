@@ -2,103 +2,63 @@
   "schedule": [
     {
       "id": "1",
-      "home": "MUKS Iskierka Tarnów",
+      "home": "MUKS Iskierka",
+      "homeCity": "Tarnów",
       "homeLogo": "/assets/teamsLogo/iskierkaTarnow.png",
       "homeLogoAlt": "Logo gospodarza meczu",
-      "away": "MKS Ryglice",
+      "away": "MKS",
+      "awayCity": "Ryglice",
       "awayLogo": "/assets/teamsLogo/mksRyglice.jpg",
       "awayLogoAlt": "Logo gościa meczu",
-      "date": "Wrzesień 01, 2022"
+      "date": "01.09.2022"
     },
     {
       "id": "2",
-      "home": "Gryf Brzesko",
+      "home": "Gryf",
+      "homeCity": "Brzesko",
       "homeLogo": "/assets/teamsLogo/gryfBrzesko.jpg",
       "homeLogoAlt": "Logo gospodarza meczu",
-      "away": "MUKS Iskierka Tarnów",
+      "away": "MUKS Iskierka",
+      "awayCity": "Tarnów",
       "awayLogo": "/assets/teamsLogo/iskierkaTarnow.png",
       "awayLogoAlt": "Logo gościa meczu",
-      "date": "Wrzesień 08, 2022"
+      "date": "08.09.2022"
     },
     {
       "id": "3",
-      "home": "MUKS Iskierka Tarnów",
+      "home": "MUKS Iskierka",
+      "homeCity": "Tarnów",
       "homeLogo": "/assets/teamsLogo/iskierkaTarnow.png",
       "homeLogoAlt": "Logo gospodarza meczu",
-      "away": "LKS Bobowa",
+      "away": "LKS",
+      "awayCity": "Bobowa",
       "awayLogo": "/assets/teamsLogo/lksBobowa.jpg",
       "awayLogoAlt": "Logo gościa meczu",
-      "date": "Wrzesień 15, 2022"
+      "date": "15.09.2022"
     },
     {
       "id": "4",
-      "home": "MKS Ryglice",
+      "home": "MKS",
+      "homeCity": "Ryglice",
       "homeLogo": "/assets/teamsLogo/mksRyglice.jpg",
       "homeLogoAlt": "Logo gospodarza meczu",
-      "away": "MUKS Iskierka Tarnów",
+      "away": "MUKS Iskierka",
+      "awayCity": "Tarnów",
       "awayLogo": "/assets/teamsLogo/iskierkaTarnow.png",
       "awayLogoAlt": "Logo gościa meczu",
-      "date": "Wrzesień 22, 2022"
+      "date": "22.09.2022"
     },
     {
       "id": "5",
-      "home": "MUKS Iskierka Tarnów",
+      "home": "MUKS Iskierka",
+      "homeCity": "Tarnów",
       "homeLogo": "/assets/teamsLogo/iskierkaTarnow.png",
       "homeLogoAlt": "Logo gospodarza meczu",
-      "away": "MUKS Sokół Gumniska Tarnów",
+      "away": "MUKS Sokół Gumniska",
+      "awayCity": "Tarnów",
       "awayLogo": "/assets/teamsLogo/sokolGumniskaTarnow.jpg",
       "awayLogoAlt": "Logo gościa meczu",
-      "date": "Wrzesień 29, 2022"
-    },
-    {
-      "id": "6",
-      "home": "Volley Team Gromnik",
-      "homeLogo": "/assets/teamsLogo/volleyTeamGromnik.png",
-      "homeLogoAlt": "Logo gospodarza meczu",
-      "away": "MUKS Iskierka Tarnów",
-      "awayLogo": "/assets/teamsLogo/iskierkaTarnow.png",
-      "awayLogoAlt": "Logo gościa meczu",
-      "date": "Październik 01, 2022"
-    },
-    {
-      "id": "7",
-      "home": "MKS Ryglice",
-      "homeLogo": "/assets/teamsLogo/mksRyglice.jpg",
-      "homeLogoAlt": "Logo gospodarza meczu",
-      "away": "MUKS Iskierka Tarnów",
-      "awayLogo": "/assets/teamsLogo/iskierkaTarnow.png",
-      "awayLogoAlt": "Logo gościa meczu",
-      "date": "Październik 09, 2022"
-    },
-    {
-      "id": "8",
-      "home": "MUKS Iskierka Tarnów",
-      "homeLogo": "/assets/teamsLogo/iskierkaTarnow.png",
-      "homeLogoAlt": "Logo gospodarza meczu",
-      "away": "Gryf Brzesko",
-      "awayLogo": "/assets/teamsLogo/gryfBrzesko.jpg",
-      "awayLogoAlt": "Logo gościa meczu",
-      "date": "Wrzesień 01, 2022"
-    },
-    {
-      "id": "9",
-      "home": "LKS Bobowa",
-      "homeLogo": "/assets/teamsLogo/lksBobowa.jpg",
-      "homeLogoAlt": "Logo gospodarza meczu",
-      "away": "MUKS Iskierka Tarnów",
-      "awayLogo": "/assets/teamsLogo/iskierkaTarnow.png",
-      "awayLogoAlt": "Logo gościa meczu",
-      "date": "Wrzesień 01, 2022"
-    },
-    {
-      "id": "10",
-      "home": "MUKS Iskierka Tarnów",
-      "homeLogo": "/assets/teamsLogo/iskierkaTarnow.png",
-      "homeLogoAlt": "Logo gospodarza meczu",
-      "away": "MKS Ryglice",
-      "awayLogo": "/assets/teamsLogo/mksRyglice.jpg",
-      "awayLogoAlt": "Logo gościa meczu",
-      "date": "Wrzesień 01, 2022"
+      "date": "29.09.2022"
     }
   ]
 }
