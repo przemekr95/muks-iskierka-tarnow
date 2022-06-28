@@ -9,7 +9,8 @@ import './hero-image.scss';
 const HeroImage = props => {
 
   const {
-    name
+    name,
+    nextMatchInfo
   } = props;
 
   return (
@@ -28,7 +29,7 @@ const HeroImage = props => {
         />
       </div>
       <div className="hero-image-next-match">
-        <NextMatch />
+        <NextMatch nextMatchInfo={nextMatchInfo} />
       </div>
     </section>
   );
@@ -36,6 +37,7 @@ const HeroImage = props => {
 
 HeroImage.propTypes = {
   name: PropTypes.string.isRequired,
+  nextMatchInfo: PropTypes.objectOf(PropTypes.string).isRequired
 };
 
 export default HeroImage;
