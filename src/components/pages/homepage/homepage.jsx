@@ -15,7 +15,7 @@ const Homepage = () => {
 
   return (
     <>
-      <HeroImage name={homepageTexts.name} />
+      <HeroImage name={homepageTexts.name} nextMatchInfo={homepageTexts.nextMatchInfo} />
       <HomepageContent homepageTexts={homepageTexts} />
       <section className="column wrapper-page">
         <Sponsors />
