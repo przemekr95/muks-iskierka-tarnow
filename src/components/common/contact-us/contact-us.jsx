@@ -1,7 +1,7 @@
 import React from 'react';
-
 import { faMapMarkerAlt, faAddressCard, faAddressBook } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { GoogleMap, withScriptjs, withGoogleMap, Marker } from 'react-google-maps';
 import Heading from '../../atomic/typography/heading';
 import Text from '../../atomic/typography/text';
 
@@ -9,7 +9,7 @@ import './contact-us.scss';
 
 const ContactUs = () => {
 
-  const ContactUsInfo = (
+  const contactUsInfo = (
     <div className="contact-us-info">
       <div className="contact-us-box">
         <FontAwesomeIcon className="contact-icon" icon={faMapMarkerAlt} />
@@ -89,21 +89,36 @@ const ContactUs = () => {
     </div>
   );
 
-  return (
+  const mapComponent = () => (
+    <GoogleMap
+      defaultZoom={15}
+      defaultCenter={{ lat: 50.045397005697495, lng: 20.992156840851454 }}
+    >
+      <Marker position={{ lat: 50.045397005697495, lng: 20.992156840851454 }} />
+    </GoogleMap>
+  );
 
+  const WrappedMap = withScriptjs(withGoogleMap(mapComponent));
+
+  return (
     <div className="contact-us-wrapper">
       <Heading
         text="Skontaktuj się z nami"
         appearance="heading_1"
         color="white_text"
       />
-      {ContactUsInfo}
-      <div>
-        Mapa
+      {contactUsInfo}
+      <div style={{ width: '100%', height: '100%' }}>
+        <WrappedMap
+          googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyBx5CD--p8-J_Whz0M3rXuCDJSP87YksGg"
+          loadingElement={<div style={{ height: '100%' }} />}
+          containerElement={<div style={{ height: '500px' }} />}
+          mapElement={<div style={{ height: '100%' }} />}
+        />
       </div>
     </div>
-
   );
 };
+
 
 export default ContactUs;
