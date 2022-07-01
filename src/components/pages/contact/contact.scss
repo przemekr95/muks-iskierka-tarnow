@@ -1,13 +1,6 @@
-.contact-info {
-  height: 800px;
-  width: 100%;
-  background-color: aqua;
-  margin: 10px;
-}
+@import './../../../styles/style';
 
-.contact-img {
-  height: 800px;
-  width: 100%;
-  background-color: aquamarine;
-  margin: 10px;
+.wrapper-contact-us {
+  padding-top: 95px;
+  background-color: $muks-blue;
 }

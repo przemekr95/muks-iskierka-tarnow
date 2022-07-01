@@ -17,7 +17,7 @@ const Heading = props => {
       case 'heading_1':
         return {
           size: 'heading_1_size',
-          font: 'bold_font'
+          font: 'thin_font'
         };
       case 'heading_2':
         return {

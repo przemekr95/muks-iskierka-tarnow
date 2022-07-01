@@ -1,18 +1,12 @@
 import React from 'react';
+import ContactViews from '../../views/contact-views';
 
 import './contact.scss';
 
 function Contact() {
   return (
-    <div className="wrapper">
-      <section className="row wrapper-page">
-        <div className="contact-info">
-          info
-        </div>
-        <div className="contact-img">
-          zdjęcie
-        </div>
-      </section>
+    <div className="wrapper-contact-us">
+      <ContactViews text="Bonk" />
     </div>
   );
 }
