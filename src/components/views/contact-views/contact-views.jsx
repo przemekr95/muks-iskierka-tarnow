@@ -4,13 +4,10 @@ import ContactUs from '../../common/contact-us';
 
 import './contact-views.scss';
 
-const ContactViews = () => {
-  console.log('##');
-  return (
-    <section>
-      <ContactUs text="{text}" />
-    </section>
-  );
-};
+const ContactViews = () => (
+  <section>
+    <ContactUs />
+  </section>
+);
 
 export default ContactViews;

@@ -6,7 +6,7 @@ import './contact.scss';
 function Contact() {
   return (
     <div className="wrapper-contact-us">
-      <ContactViews text="Bonk" />
+      <ContactViews />
     </div>
   );
 }
