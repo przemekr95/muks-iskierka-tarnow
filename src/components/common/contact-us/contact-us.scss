@@ -1,0 +1,35 @@
+@import './../../../styles/style';
+
+.contact-us-wrapper{
+  margin-top: 40px;
+  min-height: 100vh;
+}
+
+.contact-us-info{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  @media (max-width:576px){
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.contact-icon{
+  color: $muks-white;
+  background-color: $muks-blue-dark;
+  height: 50px;
+  width: 50px;
+  padding: 25px;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+.contact-us-box {
+  max-width: 400px;
+}
+
+.contact-us-text {
+  margin: 20px;
+}
