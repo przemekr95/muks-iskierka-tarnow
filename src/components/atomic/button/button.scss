@@ -21,6 +21,10 @@ $button-shadow: 0 1px 4px 2px rgba(64, 64, 64, 0.08);
   border: 2px solid $muks-orange;
 }
 
+.button-icon {
+  margin: 0 5px 
+}
+
 .primary {
   background: $muks-blue;
   color: $muks-white;
