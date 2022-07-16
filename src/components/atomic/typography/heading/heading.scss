@@ -12,7 +12,10 @@
 .heading_2_size_margin {
   line-height: 1.25;
   font-size: 40px;
-  margin: 0 0 50px 0;
+  margin: 0 0 40px 0;
+  @media (max-width:576px){
+    margin: 0 0 20px 0;
+  }
 }
 
 .heading_3_size {
