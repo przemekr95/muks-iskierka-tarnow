@@ -1,0 +1,12 @@
+.management-card-wrapper{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  @media (max-width: 576px){
+    justify-content: center;
+  }
+  @media (max-width:991px){
+    justify-content: space-evenly;
+  }
+}
