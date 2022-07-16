@@ -1,17 +1,14 @@
 import React from 'react';
-
 import ClubViews from '../../views/club-views';
 
 import './club.scss';
 
-function Club() {
-  return (
+const Club = () => (
+  <div className="club">
     <div className="wrapper">
-      <section className="wrapper-page column">
-        <ClubViews />
-      </section>
+      <ClubViews />
     </div>
-  );
-}
+  </div>
+);
 
 export default Club;

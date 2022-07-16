@@ -7,13 +7,12 @@ import ClubPractices from './club-practices';
 import './club-views.scss';
 
 const ClubViews = () => (
-  <section>
-    <div>test</div>
+  <>
     <ClubHistory />
     <ClubManagement />
     <ClubPractices />
     <ClubDownload />
-  </section>
+  </>
 );
 
 export default ClubViews;
