@@ -47,7 +47,7 @@
   text-align: right;
 }
 
-.card-wrapper{
+.card-wrapper {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -60,6 +60,9 @@
   }
 }
 
+.navbar-background {
+  border-top: 95px solid $muks-blue;
+}
 
 .m10 {
   margin: 10px;

@@ -18,7 +18,7 @@ const Club = () => {
   }, []);
 
   return (
-    <div className="club">
+    <div className="navbar-background">
       <div className="wrapper">
         <ClubViews clubPracticesContent={clubPracticesContent} />
       </div>
