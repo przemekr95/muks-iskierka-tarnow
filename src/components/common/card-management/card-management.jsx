@@ -15,7 +15,7 @@ const CardManagement = props => {
   } = props;
 
   const cardManagementContent = (
-    <>
+    <div className="card-management">
       <Image
         src={img}
         alt={title}
@@ -33,7 +33,7 @@ const CardManagement = props => {
         font="regular_font"
         size="regular_size"
       />
-    </>
+    </div>
   );
 
   return <Card content={cardManagementContent} />;

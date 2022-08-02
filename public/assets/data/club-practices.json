@@ -1,0 +1,87 @@
+{
+  "minisiatkowka": [
+    {
+      "day": "Poniedziałek",
+      "hour": "16:30-18:00",
+      "place": "SP14, ul. Krzyska 118"
+    },
+    {
+      "day": "Wtorek",
+      "hour": "16:30-18:00",
+      "place": "SP14, ul. Krzyska 118"
+    },
+    {
+      "day": "Czwartek",
+      "hour": "17:00-18:30",
+      "place": "SP14, ul. Krzyska 118"
+    }
+  ],
+  "mlodzik": [
+    {
+      "day": "Poniedziałek",
+      "hour": "18:30-19:30",
+      "place": "SP14, ul. Krzyska 118"
+    },
+    {
+      "day": "Wtorek",
+      "hour": "18:30-19:30",
+      "place": "SP14, ul. Krzyska 118"
+    },
+    {
+      "day": "Piątek",
+      "hour": "18:30-19:30",
+      "place": "SP14, ul. Krzyska 118"
+    }
+  ],
+  "kadet": [
+    {
+      "day": "Poniedziałek",
+      "hour": "18:00-19:30",
+      "place": "SP14, ul. Krzyska 118"
+    },
+    {
+      "day": "Wtorek",
+      "hour": "19:00-21:00",
+      "place": "TOSiR, ul. Krupnicza 8a"
+    },
+    {
+      "day": "Czwartek",
+      "hour": "19:00-21:00",
+      "place": "TOSiR, ul. Krupnicza 8a"
+    }
+  ],
+  "junior": [
+    {
+      "day": "Poniedziałek",
+      "hour": "20:00-21:30",
+      "place": "TOSiR, ul. Krupnicza 8a"
+    },
+    {
+      "day": "Środa",
+      "hour": "20:00-21:30",
+      "place": "TOSiR, ul. Krupnicza 8a"
+    },
+    {
+      "day": "Piątek",
+      "hour": "20:00-21:30",
+      "place": "TOSiR, ul. Krupnicza 8a"
+    }
+  ],
+  "senior": [
+    {
+      "day": "Poniedziałek",
+      "hour": "20:00-21:30",
+      "place": "TOSiR, ul. Krupnicza 8a"
+    },
+    {
+      "day": "Środa",
+      "hour": "20:00-21:30",
+      "place": "TOSiR, ul. Krupnicza 8a"
+    },
+    {
+      "day": "Piątek",
+      "hour": "20:00-21:30",
+      "place": "TOSiR, ul. Krupnicza 8a"
+    }
+  ]
+}

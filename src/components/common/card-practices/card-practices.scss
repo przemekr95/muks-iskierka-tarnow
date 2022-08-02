@@ -1,0 +1,16 @@
+@import './../../../styles/style';
+
+.card-practices {
+  padding: 10px;
+  width: 250px;
+}
+
+.card-practices-details {
+  display: flex;
+  align-items: center;
+}
+
+.practices-icon {
+ color: $muks-blue;
+ margin: 10px 20px;
+}

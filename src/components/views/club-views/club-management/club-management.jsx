@@ -12,17 +12,17 @@ const ClubManagement = () => {
       'title': 'Prezes Klubu'
     },
     {
-      'img': '/assets/images/trener.jpg',
+      'img': '/assets/images/templateManagement.png',
       'name': 'Sebastian Mruk',
       'title': 'Wiceprezes Klubu'
     },
     {
-      'img': '/assets/images/trener.jpg',
+      'img': '/assets/images/templateManagement.png',
       'name': 'Dariusz Kuta',
       'title': 'Sekretarz Klubu'
     },
     {
-      'img': '/assets/images/trener.jpg',
+      'img': '/assets/images/templateManagement.png',
       'name': 'Bożena Janiec',
       'title': 'Pełnomocnik Zarządu'
     }
@@ -39,7 +39,7 @@ const ClubManagement = () => {
   ));
 
   const managementCardList = (
-    <ul className="management-card-wrapper">
+    <ul className="card-wrapper">
       {managementCard}
     </ul>
   );
