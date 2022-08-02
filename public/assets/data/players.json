@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "name": "Filip Babiec",
+      "position": "Przyjmujący",
+      "category": "senior",
+      "img": "/assets/images/templateManagement.png"
+    },
+    {
+      "name": "Karol Czarnecki",
+      "position": "Środkowy",
+      "category": "senior",
+      "img": "/assets/images/templateManagement.png"
+    },
+    {
+      "name": "Eryk Dembiński",
+      "position": "Atakujący",
+      "category": "junior",
+      "img": "/assets/images/templateManagement.png"
+    },
+    {
+      "name": "Domingo Gromniak",
+      "position": "Przyjmujący",
+      "category": "senior",
+      "img": "/assets/images/templateManagement.png"
+    },
+    {
+      "name": "Maksymilian Janik",
+      "position": "Przyjmujący",
+      "category": "senior",
+      "img": "/assets/images/templateManagement.png"
+    },
+    {
+      "name": "Dawid Kabat",
+      "position": "Środkowy",
+      "category": "kadet",
+      "img": "/assets/images/templateManagement.png"
+    },
+    {
+      "name": "Jakub Kobis",
+      "position": "Rozgrywający",
+      "category": "senior",
+      "img": "/assets/images/templateManagement.png"
+    },
+    {
+      "name": "Bartek Krawiec",
+      "position": "Środkowy",
+      "category": "junior",
+      "img": "/assets/images/templateManagement.png"
+    },
+    {
+      "name": "Michał Kuczek",
+      "position": "Rozgrywający",
+      "category": "senior",
+      "img": "/assets/images/templateManagement.png"
+    },
+    {
+      "name": "Adrian Lechowicz",
+      "position": "Środkowy",
+      "category": "senior",
+      "img": "/assets/images/templateManagement.png"
+    },
+    {
+      "name": "Kamil Łoboda",
+      "position": "Przyjmujący",
+      "category": "kadet",
+      "img": "/assets/images/templateManagement.png"
+    },
+    {
+      "name": "Oskar Mazur",
+      "position": "Rozgrywający",
+      "category": "junior",
+      "img": "/assets/images/templateManagement.png"
+    },
+    {
+      "name": "Mateusz Nowak",
+      "position": "Libero",
+      "category": "senior",
+      "img": "/assets/images/templateManagement.png"
+    },
+    {
+      "name": "Adam Olbracht",
+      "position": "Atakujący",
+      "category": "kadet",
+      "img": "/assets/images/templateManagement.png"
+    },
+    {
+      "name": "Grzegorz Rubacha",
+      "position": "Rozgrywający",
+      "category": "senior",
+      "img": "/assets/images/templateManagement.png"
+    },
+    {
+      "name": "Wojciech Rubacha",
+      "position": "Środkowy",
+      "category": "senior",
+      "img": "/assets/images/templateManagement.png"
+    },
+    {
+      "name": "Przemysław Rura",
+      "position": "Przyjmujący",
+      "category": "senior",
+      "img": "/assets/images/templateManagement.png"
+    },
+    {
+      "name": "Radosław Skrzypek",
+      "position": "Przyjmujący",
+      "category": "kadet",
+      "img": "/assets/images/templateManagement.png"
+    },
+    {
+      "name": "Jakub Sukiennik",
+      "position": "Atakujący",
+      "category": "junior",
+      "img": "/assets/images/templateManagement.png"
+    },
+    {
+      "name": "Miłosz Tyrka",
+      "position": "Przyjmujący",
+      "category": "junior",
+      "img": "/assets/images/templateManagement.png"
+    },
+    {
+      "name": "Patryk Tyrka",
+      "position": "Libero",
+      "category": "kadet",
+      "img": "/assets/images/templateManagement.png"
+    },
+    {
+      "name": "Michał Wójcik",
+      "position": "Libero",
+      "category": "junior",
+      "img": "/assets/images/templateManagement.png"
+    },
+    {
+      "name": "Nikodem Zacharek",
+      "position": "Libero",
+      "category": "senior",
+      "img": "/assets/images/templateManagement.png"
+    },
+    {
+      "name": "Piotr Zyguła",
+      "position": "Atakujący",
+      "category": "senior",
+      "img": "/assets/images/templateManagement.png"
+    }
+  ],
+  "coaches": [
+    {
+      "name": "Andrzej Łoś",
+      "position": "Trener",
+      "img": "/assets/images/trener.jpg"
+    }
+  ]
+}
