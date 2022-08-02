@@ -317,7 +317,7 @@ module.exports = {
     'react/jsx-no-target-blank': 'off',
     'react/jsx-no-undef': 'error',
     'react/jsx-no-useless-fragment': 'off',
-    'react/jsx-one-expression-per-line': ['error', {allow: 'single-child'}],
+    'react/jsx-one-expression-per-line': 'off',
     'react/jsx-curly-brace-presence': ['error', 'never'],
     'react/jsx-fragments': ['error', 'syntax'],
     'react/jsx-pascal-case': 'error',
