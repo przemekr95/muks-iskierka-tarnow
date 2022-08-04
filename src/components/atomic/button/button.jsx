@@ -10,13 +10,15 @@ const Button = props => {
     appearance,
     corner,
     className,
-    icon
+    icon,
+    onClick,
   } = props;
 
   return (
     <button
       type="button"
       className={`button ${appearance} ${corner} ${className}`}
+      onClick={onClick}
     >
       {icon ? <FontAwesomeIcon icon={icon} className="button-icon" /> : null}
       {text}
@@ -24,12 +26,18 @@ const Button = props => {
   );
 };
 
+Button.defaultProps = {
+  icon: '',
+  onClick: () => { },
+};
+
 Button.propTypes = {
   text: PropTypes.string.isRequired,
   appearance: PropTypes.string.isRequired,
   corner: PropTypes.string.isRequired,
   className: PropTypes.string.isRequired,
-  icon: PropTypes.string.isRequired,
+  icon: PropTypes.string,
+  onClick: PropTypes.func,
 };
 
 export default Button;

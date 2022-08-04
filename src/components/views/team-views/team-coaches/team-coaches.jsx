@@ -28,7 +28,7 @@ const TeamCoaches = props => {
         color="blue_text"
         tag="h2"
       />
-      <ul className="card-wrapper">
+      <ul className="card-wrapper-coaches">
         {coachesCard}
       </ul>
     </section>

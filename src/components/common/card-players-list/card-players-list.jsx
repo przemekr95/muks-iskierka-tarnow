@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Heading from '../../atomic/typography/heading';
 import CardPlayers from '../card-players';
 
 import './card-players-list.scss';
@@ -21,17 +20,9 @@ const CardPlayersList = props => {
   ));
 
   return (
-    <section>
-      <Heading
-        text="Drużyna"
-        appearance="heading_2_bold"
-        color="blue_text"
-        tag="h2"
-      />
-      <ul className="card-wrapper">
-        {playersCard}
-      </ul>
-    </section>
+    <ul className="card-wrapper">
+      {playersCard}
+    </ul>
   );
 };
 
