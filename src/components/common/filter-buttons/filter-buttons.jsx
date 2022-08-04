@@ -28,40 +28,9 @@ const FilterButtons = props => {
   );
 };
 
-FilterButtons.defaultProps = {
-  filter: PropTypes.shape(
-    [{
-      'name': '',
-      'position': '',
-      'category': '',
-      'img': ''
-    }]
-  ),
-  buttons: PropTypes.shape(
-    [{
-      'name': '',
-      'position': '',
-      'category': '',
-      'img': ''
-    }]
-  )
-};
-
 FilterButtons.propTypes = {
-  filter: PropTypes.shape([{
-    'name': PropTypes.string.isRequired,
-    'position': PropTypes.string.isRequired,
-    'category': PropTypes.string.isRequired,
-    'img': PropTypes.string.isRequired
-  }]),
-  buttons: PropTypes.shape(
-    [{
-      'name': '',
-      'position': '',
-      'category': '',
-      'img': ''
-    }]
-  )
+  filter: PropTypes.func.isRequired,
+  buttons: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired
 };
 
 export default FilterButtons;

@@ -10,7 +10,9 @@ const TeamCoaches = props => {
     coaches
   } = props;
 
-  const coachesCard = coaches.map((item, index) => (
+  const coachesList = coaches;
+
+  const coachesCard = coachesList.map((item, index) => (
     <li key={index}>
       <CardPlayers
         img={item.img}
@@ -37,22 +39,17 @@ const TeamCoaches = props => {
 
 TeamCoaches.defaultProps = {
   coaches: PropTypes.shape(
-    [{
+    {
       'name': '',
       'position': '',
       'category': '',
       'img': ''
-    }]
+    }
   )
 };
 
 TeamCoaches.propTypes = {
-  coaches: PropTypes.shape([{
-    'name': PropTypes.string.isRequired,
-    'position': PropTypes.string.isRequired,
-    'category': PropTypes.string.isRequired,
-    'img': PropTypes.string.isRequired
-  }])
+  coaches: PropTypes.arrayOf(PropTypes.object)
 };
 
 export default TeamCoaches;

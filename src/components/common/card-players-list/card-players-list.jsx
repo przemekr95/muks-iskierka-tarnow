@@ -38,12 +38,7 @@ CardPlayersList.defaultProps = {
 };
 
 CardPlayersList.propTypes = {
-  players: PropTypes.shape([{
-    'name': PropTypes.string.isRequired,
-    'position': PropTypes.string.isRequired,
-    'category': PropTypes.string.isRequired,
-    'img': PropTypes.string.isRequired
-  }])
+  players: PropTypes.arrayOf(PropTypes.object)
 };
 
 export default CardPlayersList;

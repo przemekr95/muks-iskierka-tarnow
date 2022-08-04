@@ -30,12 +30,7 @@ TeamViews.defaultProps = {
 };
 
 TeamViews.propTypes = {
-  teamContent: PropTypes.shape([{
-    'name': PropTypes.string.isRequired,
-    'position': PropTypes.string.isRequired,
-    'category': PropTypes.string.isRequired,
-    'img': PropTypes.string.isRequired
-  }])
+  teamContent: PropTypes.objectOf(PropTypes.array)
 };
 
 export default TeamViews;
