@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { faMapMarkerAlt, faAddressCard, faAddressBook } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { GoogleMap, withScriptjs, withGoogleMap, Marker } from 'react-google-maps';
@@ -7,7 +8,15 @@ import Text from '../../atomic/typography/text';
 
 import './contact-us.scss';
 
-const ContactUs = () => {
+const ContactUs = props => {
+
+  const {
+    contactContent
+  } = props;
+
+  const NIP = `NIP: ${contactContent.NIP}`;
+  const REGON = `REGON: ${contactContent.REGON}`;
+  const bank = `Bank: ${contactContent.bank}`;
 
   const contactUsInfo = (
     <div className="contact-us-info">
@@ -21,13 +30,13 @@ const ContactUs = () => {
         />
         <div className="contact-us-text">
           <Text
-            text="ul. Krzyska 118,"
+            text={contactContent.adres1}
             color="light_grey_text"
             font="regular_font"
             tag="p"
           />
           <Text
-            text="33-103 Tarnów"
+            text={contactContent.adres2}
             color="light_grey_text"
             font="regular_font"
             tag="p"
@@ -44,19 +53,19 @@ const ContactUs = () => {
         />
         <div className="contact-us-text">
           <Text
-            text="NIP: 873-26-11-598"
+            text={NIP}
             color="light_grey_text"
             font="regular_font"
             tag="p"
           />
           <Text
-            text="REGON: 850509910"
+            text={REGON}
             color="light_grey_text"
             font="regular_font"
             tag="p"
           />
           <Text
-            text="Bank: 96 1160 2202 0000 0000 2839 6311"
+            text={bank}
             color="light_grey_text"
             font="regular_font"
             tag="p"
@@ -73,13 +82,13 @@ const ContactUs = () => {
         />
         <div className="contact-us-text">
           <Text
-            text="605 721 423"
+            text={contactContent.tel}
             color="light_grey_text"
             font="regular_font"
             tag="p"
           />
           <Text
-            text="andlos@tlen.pl"
+            text={contactContent.email}
             color="light_grey_text"
             font="regular_font"
             tag="p"
@@ -120,5 +129,30 @@ const ContactUs = () => {
   );
 };
 
+ContactUs.defaultProps = {
+  contactContent: PropTypes.shape(
+    [{
+      'adres1': '',
+      'adres2': '',
+      'NIP': '',
+      'REGON': '',
+      'bank': '',
+      'tel': '',
+      'email': ''
+    }]
+  )
+};
+
+ContactUs.propTypes = {
+  contactContent: PropTypes.shape([{
+    'adres1': PropTypes.string,
+    'adres2': PropTypes.string,
+    'NIP': PropTypes.string,
+    'REGON': PropTypes.string,
+    'bank': PropTypes.string,
+    'tel': PropTypes.string,
+    'email': PropTypes.string
+  }])
+};
 
 export default ContactUs;
