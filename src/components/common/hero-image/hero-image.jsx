@@ -37,7 +37,12 @@ const HeroImage = props => {
 
 HeroImage.propTypes = {
   name: PropTypes.string.isRequired,
-  nextMatchInfo: PropTypes.objectOf(PropTypes.string).isRequired
+  nextMatchInfo: PropTypes.shape({
+    'league': PropTypes.string,
+    'home': PropTypes.string,
+    'away': PropTypes.string,
+    'date': PropTypes.string
+  }).isRequired
 };
 
 export default HeroImage;

@@ -1,26 +1,31 @@
 import React, { useState, useEffect } from 'react';
 import getData from '../../../utils/get-data';
-import Sponsors from '../../views/homepage-views/sponsors';
-import HomepageContent from '../../views/homepage-views/homepage-content';
-import HeroImage from '../../common/hero-image';
+import HomepageViews from '../../views/homepage-views';
 
 import './homepage.scss';
 
 const Homepage = () => {
-  const [homepageTexts, setHomepageTexts] = useState({});
+  const [homepageTexts, setHomepageTexts] = useState({
+    'name': '',
+    'homepageDescription': '',
+    'headingOne': '',
+    'headingTwo': '',
+    'headingThree': ''
+  });
+  const [nextMatchInfo, setNextMatchInfo] = useState({
+    'league': '',
+    'home': '',
+    'away': '',
+    'date': ''
+  });
 
   useEffect(() => {
     getData('homepage.json', setHomepageTexts);
+    getData('next-match.json', setNextMatchInfo);
   }, []);
 
   return (
-    <>
-      <HeroImage name={homepageTexts.name} nextMatchInfo={homepageTexts.nextMatchInfo} />
-      <HomepageContent homepageTexts={homepageTexts} />
-      <section className="column wrapper-page">
-        <Sponsors />
-      </section>
-    </>
+    <HomepageViews homepageTexts={homepageTexts} nextMatchInfo={nextMatchInfo} />
   );
 };
 

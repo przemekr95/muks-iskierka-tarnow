@@ -26,8 +26,13 @@ const FirstRowHomepage = props => {
 };
 
 FirstRowHomepage.propTypes = {
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  title: PropTypes.string,
+  description: PropTypes.string,
+};
+
+FirstRowHomepage.defaultProps = {
+  title: 'Nasza drużyna',
+  description: 'Międzyszkolny Uczniowski Klub Sportowy Iskierka Tarnów'
 };
 
 export default FirstRowHomepage;
