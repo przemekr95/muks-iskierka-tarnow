@@ -19,7 +19,11 @@ const SecondRowHomepage = props => {
 };
 
 SecondRowHomepage.propTypes = {
-  title: PropTypes.string.isRequired
+  title: PropTypes.string,
+};
+
+SecondRowHomepage.defaultProps = {
+  title: 'Ostatni mecz',
 };
 
 export default SecondRowHomepage;

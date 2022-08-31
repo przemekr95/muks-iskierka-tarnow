@@ -19,7 +19,11 @@ const ThirdRowHomepage = props => {
 };
 
 ThirdRowHomepage.propTypes = {
-  title: PropTypes.string.isRequired
+  title: PropTypes.string,
+};
+
+ThirdRowHomepage.defaultProps = {
+  title: 'Najbliższe mecze',
 };
 
 export default ThirdRowHomepage;

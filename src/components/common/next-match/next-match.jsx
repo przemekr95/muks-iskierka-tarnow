@@ -18,8 +18,9 @@ const NextMatch = props => {
   };
 
   const [timeLeft, setTimeLeft] = useState(defaultTimeLeft);
+  const [isvisible, setIsvisible] = useState(false);
 
-  const countDate = new Date(nextMatchInfo?.date).getTime();
+  const countDate = new Date(nextMatchInfo.date).getTime();
 
   const second = 1000;
   const minute = second * 60;
@@ -42,10 +43,11 @@ const NextMatch = props => {
         textMinute: textMinute, // eslint-disable-line
         textSecond: textSecond // eslint-disable-line
       });
+      gap > 0 ? setIsvisible(true) : setIsvisible(false);
     }, 1000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [nextMatchInfo]);
 
   const nextMatchContent = (
     <div className="next-match-container">
@@ -167,24 +169,18 @@ const NextMatch = props => {
     </div>
   );
 
-  const isNextMatch = timeLeft.textSecond > -1 ? nextMatchContent : null;
-
   return (
-    isNextMatch
+    isvisible ? nextMatchContent : null
   );
 };
 
 NextMatch.propTypes = {
-  nextMatchInfo: PropTypes.objectOf(PropTypes.string).isRequired,
-};
-
-NextMatch.defaultProps = {
-  nextMatchInfo: {
-    'league': '2. Liga Małopolska',
-    'home': 'Tarnów',
-    'away': 'Tarnów',
-    'date': 'Nov 01, 2022 20:00:00'
-  }
+  nextMatchInfo: PropTypes.shape({
+    'league': PropTypes.string,
+    'home': PropTypes.string,
+    'away': PropTypes.string,
+    'date': PropTypes.string
+  }).isRequired
 };
 
 export default NextMatch;

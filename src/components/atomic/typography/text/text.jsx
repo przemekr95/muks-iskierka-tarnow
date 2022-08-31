@@ -26,7 +26,10 @@ Text.propTypes = {
   color: PropTypes.string,
   font: PropTypes.string,
   tag: PropTypes.string,
-  text: PropTypes.string.isRequired,
+  text: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
+  ]).isRequired,
   size: PropTypes.string,
   lineHeight: PropTypes.string
 };

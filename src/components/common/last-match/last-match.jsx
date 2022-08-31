@@ -8,15 +8,31 @@ import './last-match.scss';
 
 const LastMatch = () => {
 
-  const [lastMatch, setLastMatch] = useState([]);
+  const [lastMatch, setLastMatch] = useState({
+    'home': '',
+    'homeLogo': '',
+    'homeLogoAlt': '',
+    'away': '',
+    'awayLogo': '',
+    'awayLogoAlt': '',
+    'date': '',
+    'homeSet': '',
+    'awaySet': '',
+    'points': [
+      '',
+      '',
+      '',
+      '',
+      ''
+    ]
+  });
 
   useEffect(() => {
     getData('last-match.json', setLastMatch);
   }, []);
 
-  const items = lastMatch.lastMatch ? lastMatch.lastMatch[0] : [];
-  const countPoints = items.points ? items.points : [];
-  const countSet = `${items.homeSet} - ${items.awaySet}`;
+  const countPoints = lastMatch.points ? lastMatch.points : [];
+  const countSet = `${lastMatch.homeSet} - ${lastMatch.awaySet}`;
 
   const points = (
     countPoints.map((countPoint, index) => (
@@ -36,8 +52,8 @@ const LastMatch = () => {
     <div className="last-match-wrapper">
 
       <Image
-        src={items.homeLogo}
-        alt={items.homeLogoAlt}
+        src={lastMatch.homeLogo}
+        alt={lastMatch.homeLogoAlt}
         className="last-match-logo"
       />
 
@@ -55,7 +71,7 @@ const LastMatch = () => {
           size="small_size"
         />
         <Text
-          text={items.date}
+          text={lastMatch.date}
           color="black_text"
           font="thin_font"
           size="small_size"
@@ -63,8 +79,8 @@ const LastMatch = () => {
       </div>
 
       <Image
-        src={items.awayLogo}
-        alt={items.awayLogoAlt}
+        src={lastMatch.awayLogo}
+        alt={lastMatch.awayLogoAlt}
         className="last-match-logo"
       />
 
