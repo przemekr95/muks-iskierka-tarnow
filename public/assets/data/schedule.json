@@ -2,63 +2,53 @@
   "schedule": [
     {
       "id": "1",
-      "home": "MUKS Iskierka",
-      "homeCity": "Tarnów",
+      "home": "MUKS Iskierka Tarnów",
       "homeLogo": "/assets/teamsLogo/iskierkaTarnow.png",
       "homeLogoAlt": "Logo gospodarza meczu",
-      "away": "MKS",
-      "awayCity": "Ryglice",
+      "away": "MKS Ryglice",
       "awayLogo": "/assets/teamsLogo/mksRyglice.jpg",
       "awayLogoAlt": "Logo gościa meczu",
-      "date": "01.09.2022"
+      "date": "01 Wrz"
     },
     {
       "id": "2",
-      "home": "Gryf",
-      "homeCity": "Brzesko",
+      "home": "Gryf Brzesko",
       "homeLogo": "/assets/teamsLogo/gryfBrzesko.jpg",
       "homeLogoAlt": "Logo gospodarza meczu",
-      "away": "MUKS Iskierka",
-      "awayCity": "Tarnów",
+      "away": "MUKS Iskierka Tarnów",
       "awayLogo": "/assets/teamsLogo/iskierkaTarnow.png",
       "awayLogoAlt": "Logo gościa meczu",
-      "date": "08.09.2022"
+      "date": "09 Paź"
     },
     {
       "id": "3",
-      "home": "MUKS Iskierka",
-      "homeCity": "Tarnów",
+      "home": "MUKS Iskierka Tarnów",
       "homeLogo": "/assets/teamsLogo/iskierkaTarnow.png",
       "homeLogoAlt": "Logo gospodarza meczu",
-      "away": "LKS",
-      "awayCity": "Bobowa",
+      "away": "LKS Bobowa",
       "awayLogo": "/assets/teamsLogo/lksBobowa.jpg",
       "awayLogoAlt": "Logo gościa meczu",
-      "date": "15.09.2022"
+      "date": "15 Lis"
     },
     {
       "id": "4",
-      "home": "MKS",
-      "homeCity": "Ryglice",
+      "home": "MKS Ryglice",
       "homeLogo": "/assets/teamsLogo/mksRyglice.jpg",
       "homeLogoAlt": "Logo gospodarza meczu",
-      "away": "MUKS Iskierka",
-      "awayCity": "Tarnów",
+      "away": "MUKS Iskierka Tarnów",
       "awayLogo": "/assets/teamsLogo/iskierkaTarnow.png",
       "awayLogoAlt": "Logo gościa meczu",
-      "date": "22.09.2022"
+      "date": "21 Gru"
     },
     {
       "id": "5",
-      "home": "MUKS Iskierka",
-      "homeCity": "Tarnów",
+      "home": "MUKS Iskierka Tarnów",
       "homeLogo": "/assets/teamsLogo/iskierkaTarnow.png",
       "homeLogoAlt": "Logo gospodarza meczu",
-      "away": "MUKS Sokół Gumniska",
-      "awayCity": "Tarnów",
+      "away": "MUKS Sokół Gumniska Tarnów",
       "awayLogo": "/assets/teamsLogo/sokolGumniskaTarnow.jpg",
       "awayLogoAlt": "Logo gościa meczu",
-      "date": "29.09.2022"
+      "date": "10 Sty"
     }
   ]
 }

@@ -39,6 +39,9 @@
 
 .extra_small_size {
   font-size: 14px;
+  @media (max-width:576px){
+    font-size: 12px;
+  }
 }
 
 .ultra_small_size {
