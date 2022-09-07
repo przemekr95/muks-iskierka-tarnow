@@ -17,61 +17,49 @@ const Schedule = () => {
 
   const tableSchedule = (
     items.map(item => (
-      <tr key={item.id} className="row team-schedule">
+      <tr key={item.id} className="row team-schedule team-schedule-border">
         <td data-label="Date" className="schedule-date">
           <Text
             text={item.date}
-            color="light_grey_text"
-            font="regular_font"
+            color="blue-dark_text"
+            font="bold_font"
+            size="extra_small_size"
           />
         </td>
-        <td data-label="Home" className="team-schedule team-schedule-box">
-          <div className="team-schedule-name text-left">
-            <Text
-              text={item.home}
-              color="black_text"
-              font="regular_font"
-            />
-            <Text
-              text={item.homeCity}
-              color="blue_text"
-              font="bold_font"
-            />
+        <td data-label="Matches" className="column">
+          <div className="team-schedule">
+            <div className="team-schedule-name text-left">
+              <Text
+                text={item.home}
+                color="grey_text"
+                font="regular_font"
+                size="extra_small_size"
+              />
+            </div>
+            <div className="schedule-logo-box">
+              <Image
+                src={item.homeLogo}
+                alt={item.homeLogoAlt}
+                className="schedule-logo"
+              />
+            </div>
           </div>
-          <div className="schedule-logo-box">
-            <Image
-              src={item.homeLogo}
-              alt={item.homeLogoAlt}
-              className="schedule-logo"
-            />
-          </div>
-        </td>
-        <td data-label="VS">
-          <Text
-            text="vs"
-            color="black_text"
-            font="regular_font"
-          />
-        </td>
-        <td data-label="Away" className="team-schedule team-schedule-box">
-          <div className="schedule-logo-box">
-            <Image
-              src={item.awayLogo}
-              alt={item.awayLogoAlt}
-              className="schedule-logo"
-            />
-          </div>
-          <div className="team-schedule-name text-right">
-            <Text
-              text={item.away}
-              color="black_text"
-              font="regular_font"
-            />
-            <Text
-              text={item.awayCity}
-              color="blue_text"
-              font="bold_font"
-            />
+          <div className="team-schedule">
+            <div className="team-schedule-name text-left">
+              <Text
+                text={item.away}
+                color="black_text"
+                font="regular_font"
+                size="extra_small_size"
+              />
+            </div>
+            <div className="schedule-logo-box">
+              <Image
+                src={item.awayLogo}
+                alt={item.awayLogoAlt}
+                className="schedule-logo"
+              />
+            </div>
           </div>
         </td>
       </tr>
@@ -80,7 +68,7 @@ const Schedule = () => {
 
   return (
     <table className="schedule-wrapper">
-      <tbody>
+      <tbody className="center">
         {tableSchedule}
       </tbody>
     </table>
