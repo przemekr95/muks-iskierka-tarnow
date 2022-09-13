@@ -3,6 +3,13 @@ import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
 import Heading from '../../../atomic/typography/heading';
 import Button from '../../../atomic/button';
 
+import Logo from './assets/iskierkaLogo.png';
+import DeklaracjaCzłonkowska from './assets/deklaracjaCzłonkowska.docx';
+import OświadczenieZawodnika from './assets/oświadczenieZawodnika.docx';
+import PrawaIObowiązki from './assets/prawaIObowiązki.pdf';
+import StatutMuksIskierkaTarnów from './assets/statutMuksIskierkaTarnów.pdf';
+import RegulaminSkładekCzłonkowskich from './assets/regulaminSkładekCzłonkowskich.pdf';
+
 import './club-download.scss';
 
 const ClubDownload = () => {
@@ -10,40 +17,46 @@ const ClubDownload = () => {
   const downloadButtonsContent = [
     {
       'name': 'Statut',
-      'link': 'www.google.com'
+      'link': StatutMuksIskierkaTarnów
     },
     {
       'name': 'Regulamin',
-      'link': 'www.google.com'
+      'link': PrawaIObowiązki
     },
     {
       'name': 'Regulamin składek',
-      'link': 'www.google.com'
+      'link': RegulaminSkładekCzłonkowskich
     },
     {
       'name': 'Deklaracja członkowska',
-      'link': 'www.google.com'
+      'link': DeklaracjaCzłonkowska
     },
     {
       'name': 'Oświadczenie zawodnika',
-      'link': 'www.google.com'
+      'link': OświadczenieZawodnika
     },
     {
       'name': 'Logo',
-      'link': 'www.google.com'
+      'link': Logo
     }
   ];
 
   const downloadButtons = downloadButtonsContent.map((item, index) => (
     <li key={index}>
-      <Button
-        text={item.name}
-        link={item.link}
-        appearance="primary"
-        corner="round"
-        className="download-button"
-        icon={faFileDownload}
-      />
+      <a
+        href={item.link}
+        download
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Button
+          text={item.name}
+          appearance="primary"
+          corner="round"
+          className="download-button"
+          icon={faFileDownload}
+        />
+      </a>
     </li>
   ));
 
