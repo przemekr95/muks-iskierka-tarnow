@@ -2,53 +2,53 @@
   "schedule": [
     {
       "id": "1",
-      "home": "MUKS Iskierka Tarnów",
-      "homeLogo": "/assets/teamsLogo/iskierkaTarnow.png",
+      "home": "MUKS SOKÓŁ Gumniska Tarnów",
+      "homeLogo": "/assets/teamsLogo/sokolGumniskaTarnow.png",
       "homeLogoAlt": "Logo gospodarza meczu",
-      "away": "MKS Ryglice",
-      "awayLogo": "/assets/teamsLogo/mksRyglice.jpg",
+      "away": "MUKS Iskierka Tarnów",
+      "awayLogo": "/assets/teamsLogo/iskierkaTarnow.png",
       "awayLogoAlt": "Logo gościa meczu",
-      "date": "01 Wrz"
+      "date": "01 Paź"
     },
     {
       "id": "2",
-      "home": "Gryf Brzesko",
-      "homeLogo": "/assets/teamsLogo/gryfBrzesko.jpg",
-      "homeLogoAlt": "Logo gospodarza meczu",
-      "away": "MUKS Iskierka Tarnów",
-      "awayLogo": "/assets/teamsLogo/iskierkaTarnow.png",
-      "awayLogoAlt": "Logo gościa meczu",
-      "date": "09 Paź"
-    },
-    {
-      "id": "3",
       "home": "MUKS Iskierka Tarnów",
       "homeLogo": "/assets/teamsLogo/iskierkaTarnow.png",
       "homeLogoAlt": "Logo gospodarza meczu",
-      "away": "LKS Bobowa",
-      "awayLogo": "/assets/teamsLogo/lksBobowa.jpg",
+      "away": "KS HUTNIK Kraków",
+      "awayLogo": "/assets/teamsLogo/hutnikKrakow.png",
       "awayLogoAlt": "Logo gościa meczu",
-      "date": "15 Lis"
+      "date": "08 Paź"
     },
     {
-      "id": "4",
-      "home": "MKS Ryglice",
-      "homeLogo": "/assets/teamsLogo/mksRyglice.jpg",
+      "id": "3",
+      "home": "APS Orlik Bolesław",
+      "homeLogo": "/assets/teamsLogo/orlikBoleslaw.png",
       "homeLogoAlt": "Logo gospodarza meczu",
       "away": "MUKS Iskierka Tarnów",
       "awayLogo": "/assets/teamsLogo/iskierkaTarnow.png",
       "awayLogoAlt": "Logo gościa meczu",
-      "date": "21 Gru"
+      "date": "15 Paź"
+    },
+    {
+      "id": "4",
+      "home": "MKS Pogoń Proszowice ",
+      "homeLogo": "/assets/teamsLogo/pogonProszowice.png",
+      "homeLogoAlt": "Logo gospodarza meczu",
+      "away": "MUKS Iskierka Tarnów",
+      "awayLogo": "/assets/teamsLogo/iskierkaTarnow.png",
+      "awayLogoAlt": "Logo gościa meczu",
+      "date": "22 Paź"
     },
     {
       "id": "5",
       "home": "MUKS Iskierka Tarnów",
       "homeLogo": "/assets/teamsLogo/iskierkaTarnow.png",
       "homeLogoAlt": "Logo gospodarza meczu",
-      "away": "MUKS Sokół Gumniska Tarnów",
-      "awayLogo": "/assets/teamsLogo/sokolGumniskaTarnow.jpg",
+      "away": "UMKS KĘCZANIN Kęty",
+      "awayLogo": "/assets/teamsLogo/keczaninKety.png",
       "awayLogoAlt": "Logo gościa meczu",
-      "date": "10 Sty"
+      "date": "29 Paź"
     }
   ]
 }

@@ -1,18 +1,18 @@
 {
-  "home": "MUKS Iskierka Tarnów",
-  "homeLogo": "/assets/teamsLogo/iskierkaTarnow.png",
+  "home": "Sokół Gumniska Tarnów",
+  "homeLogo": "/assets/teamsLogo/sokolGumniskaTarnow.png",
   "homeLogoAlt": "Logo gospodarza meczu",
-  "away": "MKS Ryglice",
-  "awayLogo": "/assets/teamsLogo/mksRyglice.jpg",
+  "away": "MUKS Iskierka Tarnów",
+  "awayLogo": "/assets/teamsLogo/iskierkaTarnow.png",
   "awayLogoAlt": "Logo gościa meczu",
-  "date": "Wrzesień 01, 2022",
-  "homeSet": 3,
-  "awaySet": 2,
+  "date": "01 Październik 2022",
+  "homeSet": 0,
+  "awaySet": 0,
   "points": [
-    "20:25",
-    "18:25",
-    "25:21",
-    "25:23",
-    "15:13"
+    "00:00",
+    "00:00",
+    "00:00",
+    "00:00",
+    "00:00"
   ]
 }

@@ -10,6 +10,7 @@ const HeroImage = props => {
 
   const {
     name,
+    secondName,
     nextMatchInfo
   } = props;
 
@@ -22,10 +23,16 @@ const HeroImage = props => {
       />
       <div className="hero-image-text">
         <Heading
-          color="blue_text"
-          appearance="heading_3"
+          color="white_text"
+          appearance="heading_1"
           text={name}
           tag="h1"
+        />
+        <Heading
+          color="white_text"
+          appearance="heading_3_thin"
+          text={secondName}
+          tag="h2"
         />
       </div>
       <div className="hero-image-next-match">
@@ -37,6 +44,7 @@ const HeroImage = props => {
 
 HeroImage.propTypes = {
   name: PropTypes.string.isRequired,
+  secondName: PropTypes.string.isRequired,
   nextMatchInfo: PropTypes.shape({
     'league': PropTypes.string,
     'home': PropTypes.string,
