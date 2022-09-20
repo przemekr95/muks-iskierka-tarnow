@@ -1,0 +1,82 @@
+@import './../../../styles/style';
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  min-height: 95px;
+  z-index: 100;
+  transition: background-color  .4s;
+  transition-timing-function: ease-out;
+}
+
+.navbar-color {
+  transition: background-color  .4s;
+  transition-timing-function: ease-in;
+  background-color: rgba(22,26,33,.9);
+}
+
+.navbar-list {
+  display: inline-block;
+  padding: 20px;
+}
+
+.navbar-list-item {
+  text-decoration: none;
+  padding: 5px;
+}
+
+.club-logo {
+  width: 100px;
+  height: 100%;
+}
+
+.navbar-logo-mobile {
+  display: flex;
+  position: fixed;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+.navbar-logo-image {
+  margin: 10px;
+}
+
+.navbar-logo-text{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.navbar-logo-line {
+  border: 0;
+  width: 1px;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(255, 255, 255), rgba(255, 255, 255, 0));
+}
+
+.navbar-facebook-icon {
+  color: $muks-white;
+  margin: 0 5px;
+}
+
+.mobile-list {
+  // background-color: rgba(22,26,33,.85);
+  margin-top: 100px;
+}
+
+.navbar-button {
+  display: flex;
+  position: fixed;
+  top: 5%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  background: none;
+	color: $muks-white;
+	border: none;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 25px;
+}

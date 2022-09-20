@@ -1,27 +1,17 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Text from '../../atomic/typography/text';
 import Image from '../../atomic/image';
 
-import './navbar.scss';
+import './navbar-desktop.scss';
 
-const Navbar = () => {
+const NavbarDesktop = props => {
 
-  const [navbar, setNavbar] = useState(false);
-
-  const changeNavbarBackground = () => {
-    if (window.scrollY >= 95) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
-  };
-
-  useEffect(() => {
-    changeNavbarBackground();
-    window.addEventListener('scroll', changeNavbarBackground);
-  });
+  const {
+    isBackground
+  } = props;
 
   const navItems = [
     { name: 'Klub', link: '/club' },
@@ -34,7 +24,7 @@ const Navbar = () => {
       <div className="navbar-logo-image">
         <Image
           src="assets/iskierkaLogoBiale.png"
-          alt="{item.alt}"
+          alt="Logo MUKS Iskierka Tarnów"
           className="club-logo"
         />
       </div>
@@ -55,21 +45,38 @@ const Navbar = () => {
   );
 
   const navbarLeft = (
-    <li
-      className="navbar-list"
-    >
-      <a
-        href="https://www.facebook.com/MUKSIskierkaTarnow"
-        className="navbar-list-item"
+    <>
+      <li
+        className="navbar-list"
       >
-        <FontAwesomeIcon className="navbar-facebook-icon" icon={faFacebook} />
-        <Text
-          text="Aktualności"
-          color="white_text"
-          font="regular_font"
-        />
-      </a>
-    </li>
+        <a
+          href="https://www.facebook.com/MUKSIskierkaTarnow"
+          className="navbar-list-item"
+        >
+          <FontAwesomeIcon className="navbar-facebook-icon" icon={faFacebook} />
+          <Text
+            text="Aktualności"
+            color="white_text"
+            font="regular_font"
+          />
+        </a>
+      </li>
+
+      <li
+        className="navbar-list"
+      >
+        <a
+          href="/"
+          className="navbar-list-item"
+        >
+          <Text
+            text="Strona główna"
+            color="white_text"
+            font="regular_font"
+          />
+        </a>
+      </li>
+    </>
   );
 
   const navbarRight = navItems.map((item, index) => (
@@ -91,7 +98,7 @@ const Navbar = () => {
   ));
 
   return (
-    <nav className={navbar ? 'navbar row navbar-color' : 'navbar row'}>
+    <nav className={isBackground ? 'navbar row navbar-color' : 'navbar row'}>
       <ul>
         {navbarLeft}
       </ul>
@@ -103,4 +110,8 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+NavbarDesktop.propTypes = {
+  isBackground: PropTypes.bool.isRequired
+};
+
+export default NavbarDesktop;
