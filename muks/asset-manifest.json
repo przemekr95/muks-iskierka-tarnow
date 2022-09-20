@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8937bff4.chunk.css",
+    "main.js": "/static/js/main.fd31cea6.chunk.js",
+    "main.js.map": "/static/js/main.fd31cea6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c7012ac9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c7012ac9.js.map",
+    "static/js/2.4e3db542.chunk.js": "/static/js/2.4e3db542.chunk.js",
+    "static/js/2.4e3db542.chunk.js.map": "/static/js/2.4e3db542.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.8937bff4.chunk.css.map": "/static/css/main.8937bff4.chunk.css.map",
+    "static/js/2.4e3db542.chunk.js.LICENSE.txt": "/static/js/2.4e3db542.chunk.js.LICENSE.txt",
+    "static/media/deklaracjaCzłonkowska.5e695933.docx": "/static/media/deklaracjaCzłonkowska.5e695933.docx",
+    "static/media/iskierkaLogo.060096d0.png": "/static/media/iskierkaLogo.060096d0.png",
+    "static/media/oświadczenieZawodnika.c328a078.docx": "/static/media/oświadczenieZawodnika.c328a078.docx",
+    "static/media/prawaIObowiązki.5a988e7c.pdf": "/static/media/prawaIObowiązki.5a988e7c.pdf",
+    "static/media/regulaminSkładekCzłonkowskich.ac65247e.pdf": "/static/media/regulaminSkładekCzłonkowskich.ac65247e.pdf",
+    "static/media/statutMuksIskierkaTarnów.1985f2ec.pdf": "/static/media/statutMuksIskierkaTarnów.1985f2ec.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c7012ac9.js",
+    "static/js/2.4e3db542.chunk.js",
+    "static/css/main.8937bff4.chunk.css",
+    "static/js/main.fd31cea6.chunk.js"
+  ]
+}
