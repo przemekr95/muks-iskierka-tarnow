@@ -40,7 +40,10 @@ const HomepageViews = props => {
 
   return (
     <>
-      <HeroImage name={homepageTexts.name} nextMatchInfo={nextMatchInfo} />
+      <HeroImage
+        name={homepageTexts.name}
+        secondName={homepageTexts.secondName}
+        nextMatchInfo={nextMatchInfo} />
       <HomePageLayout imagesList={imagesList} />
       <section className="column wrapper-page">
         <Sponsors />
@@ -52,6 +55,7 @@ const HomepageViews = props => {
 HomepageViews.propTypes = {
   homepageTexts: PropTypes.shape({
     'name': PropTypes.string,
+    'secondName': PropTypes.string,
     'homepageDescription': PropTypes.string,
     'headingOne': PropTypes.string,
     'headingTwo': PropTypes.string,

@@ -7,6 +7,7 @@ import './homepage.scss';
 const Homepage = () => {
   const [homepageTexts, setHomepageTexts] = useState({
     'name': '',
+    'secondName': '',
     'homepageDescription': '',
     'headingOne': '',
     'headingTwo': '',
