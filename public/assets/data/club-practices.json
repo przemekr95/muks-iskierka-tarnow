@@ -54,34 +54,34 @@
     {
       "day": "Poniedziałek",
       "hour": "20:00-21:30",
-      "place": "TOSiR, ul. Krupnicza 8a"
+      "place": "MDS, ul. Traugutta 5a"
     },
     {
       "day": "Środa",
       "hour": "20:00-21:30",
-      "place": "TOSiR, ul. Krupnicza 8a"
+      "place": "MDS, ul. Traugutta 5a"
     },
     {
       "day": "Piątek",
       "hour": "20:00-21:30",
-      "place": "TOSiR, ul. Krupnicza 8a"
+      "place": "MDS, ul. Traugutta 5a"
     }
   ],
   "senior": [
     {
       "day": "Poniedziałek",
       "hour": "20:00-21:30",
-      "place": "TOSiR, ul. Krupnicza 8a"
+      "place": "MDS, ul. Traugutta 5a"
     },
     {
       "day": "Środa",
       "hour": "20:00-21:30",
-      "place": "TOSiR, ul. Krupnicza 8a"
+      "place": "MDS, ul. Traugutta 5a"
     },
     {
       "day": "Piątek",
       "hour": "20:00-21:30",
-      "place": "TOSiR, ul. Krupnicza 8a"
+      "place": "MDS, ul. Traugutta 5a"
     }
   ]
 }
