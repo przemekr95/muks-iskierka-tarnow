@@ -6,13 +6,13 @@
   "awayLogo": "/assets/teamsLogo/iskierkaTarnow.png",
   "awayLogoAlt": "Logo gościa meczu",
   "date": "01 Październik 2022",
-  "homeSet": 0,
-  "awaySet": 0,
+  "homeSet": 3,
+  "awaySet": 2,
   "points": [
-    "00:00",
-    "00:00",
-    "00:00",
-    "00:00",
-    "00:00"
+    "10:25",
+    "15:25",
+    "25:22",
+    "28:26",
+    "15:13"
   ]
 }

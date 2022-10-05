@@ -47,6 +47,18 @@
       "src": "/assets/sponsors/zmt.png",
       "alt": "Logo ZMT",
       "link": "https://www.zmt.tarnow.pl/wordpress/"
+    },
+    {
+      "id": "9",
+      "src": "/assets/sponsors/klub.png",
+      "alt": "Logo programu Klub",
+      "link": "https://rzadowyprogramklub.pl/"
+    },
+    {
+      "id": "10",
+      "src": "/assets/sponsors/msit.png",
+      "alt": "Logo MSIT",
+      "link": "https://www.gov.pl/web/sport"
     }
   ]
 }
