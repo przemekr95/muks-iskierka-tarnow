@@ -1,18 +1,16 @@
 {
   "home": "Sokół Gumniska Tarnów",
-  "homeLogo": "/assets/teamsLogo/sokolGumniskaTarnow.png",
+  "homeLogo": "/assets/teamsLogo/pogonProszowice.png",
   "homeLogoAlt": "Logo gospodarza meczu",
   "away": "MUKS Iskierka Tarnów",
   "awayLogo": "/assets/teamsLogo/iskierkaTarnow.png",
   "awayLogoAlt": "Logo gościa meczu",
   "date": "01 Październik 2022",
-  "homeSet": 3,
-  "awaySet": 2,
+  "homeSet": 0,
+  "awaySet": 3,
   "points": [
-    "10:25",
-    "15:25",
-    "25:22",
-    "28:26",
-    "15:13"
+    "26:28",
+    "23:25",
+    "24:26"
   ]
 }

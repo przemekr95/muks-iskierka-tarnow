@@ -1,26 +1,6 @@
 {
   "schedule": [
     {
-      "id": "2",
-      "home": "MUKS Iskierka Tarnów",
-      "homeLogo": "/assets/teamsLogo/iskierkaTarnow.png",
-      "homeLogoAlt": "Logo gospodarza meczu",
-      "away": "KS HUTNIK Kraków",
-      "awayLogo": "/assets/teamsLogo/hutnikKrakow.png",
-      "awayLogoAlt": "Logo gościa meczu",
-      "date": "14 Paź"
-    },
-    {
-      "id": "4",
-      "home": "MKS Pogoń Proszowice ",
-      "homeLogo": "/assets/teamsLogo/pogonProszowice.png",
-      "homeLogoAlt": "Logo gospodarza meczu",
-      "away": "MUKS Iskierka Tarnów",
-      "awayLogo": "/assets/teamsLogo/iskierkaTarnow.png",
-      "awayLogoAlt": "Logo gościa meczu",
-      "date": "22 Paź"
-    },
-    {
       "id": "5",
       "home": "MUKS Iskierka Tarnów",
       "homeLogo": "/assets/teamsLogo/iskierkaTarnow.png",
@@ -49,6 +29,26 @@
       "awayLogo": "/assets/teamsLogo/iskierkaTarnow.png",
       "awayLogoAlt": "Logo gościa meczu",
       "date": "19 Lis"
+    },
+    {
+      "id": "2",
+      "home": "MUKS Iskierka Tarnów",
+      "homeLogo": "/assets/teamsLogo/iskierkaTarnow.png",
+      "homeLogoAlt": "Logo gospodarza meczu",
+      "away": "APS Orlik Bolesław",
+      "awayLogo": "/assets/teamsLogo/orlikBoleslaw.png",
+      "awayLogoAlt": "Logo gościa meczu",
+      "date": "26 Lis"
+    },
+    {
+      "id": "4",
+      "home": "APS Orlik Bolesław",
+      "homeLogo": "/assets/teamsLogo/orlikBoleslaw.png",
+      "homeLogoAlt": "Logo gospodarza meczu",
+      "away": "MUKS Iskierka Tarnów",
+      "awayLogo": "/assets/teamsLogo/iskierkaTarnow.png",
+      "awayLogoAlt": "Logo gościa meczu",
+      "date": "26 Lis"
     }
   ]
 }

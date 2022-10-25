@@ -8,7 +8,7 @@ import DeklaracjaCzłonkowska from './assets/deklaracjaCzłonkowska.docx';
 import OświadczenieZawodnika from './assets/oświadczenieZawodnika.docx';
 import PrawaIObowiązki from './assets/prawaIObowiązki.pdf';
 import StatutMuksIskierkaTarnów from './assets/statutMuksIskierkaTarnów.pdf';
-import RegulaminSkładekCzłonkowskich from './assets/regulaminSkładekCzłonkowskich.pdf';
+import RegulaminSkladekCzlonkowskich from './assets/RegulaminSkladekCzlonkowskich.pdf';
 
 import './club-download.scss';
 
@@ -25,7 +25,7 @@ const ClubDownload = () => {
     },
     {
       'name': 'Regulamin składek',
-      'link': RegulaminSkładekCzłonkowskich
+      'link': RegulaminSkladekCzlonkowskich
     },
     {
       'name': 'Deklaracja członkowska',
