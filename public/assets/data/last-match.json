@@ -1,16 +1,16 @@
 {
-  "home": "Sokół Gumniska Tarnów",
-  "homeLogo": "/assets/teamsLogo/pogonProszowice.png",
+  "home": "MUKS Iskierka Tarnów",
+  "homeLogo": "/assets/teamsLogo/iskierkaTarnow.png",
   "homeLogoAlt": "Logo gospodarza meczu",
-  "away": "MUKS Iskierka Tarnów",
-  "awayLogo": "/assets/teamsLogo/iskierkaTarnow.png",
+  "away": "MKS SKAWA Wadowice",
+  "awayLogo": "/assets/teamsLogo/wadowice.jpg",
   "awayLogoAlt": "Logo gościa meczu",
-  "date": "01 Październik 2022",
+  "date": "01 Marca 2024",
   "homeSet": 0,
   "awaySet": 3,
   "points": [
-    "26:28",
-    "23:25",
-    "24:26"
+    "22:25",
+    "22:25",
+    "14:25"
   ]
 }

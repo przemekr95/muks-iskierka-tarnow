@@ -24,7 +24,7 @@ function App() {
           <Route path="/test" element={<Test />} />
         </Routes>
       </Router>
-      <Footer text="MUKS Iskierka Tarnów © Przemek Rura 2022" />
+      <Footer text="MUKS Iskierka Tarnów © Przemek Rura 2024" />
     </>
   );
 }
