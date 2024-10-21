@@ -2,53 +2,53 @@
   "schedule": [
     {
       "id": "1",
-      "home": "GKPS Gorlice",
-      "homeLogo": "/assets/teamsLogo/gkpsGorlice.jpg",
+      "home": "GSKS Laskowa",
+      "homeLogo": "/assets/teamsLogo/GSKSLaskowa.jpg",
       "homeLogoAlt": "Logo gospodarza meczu",
       "away": "MUKS ISKIERKA Tarnów",
       "awayLogo": "/assets/teamsLogo/iskierkaTarnow.png",
       "awayLogoAlt": "Logo gościa meczu",
-      "date": "14 Paź"
+      "date": "26 Paź"
     },
     {
       "id": "2",
-      "home": "MUKS Iskierka Tarnów",
-      "homeLogo": "/assets/teamsLogo/iskierkaTarnow.png",
-      "homeLogoAlt": "Logo gospodarza meczu",
-      "away": "VOLLEYTEAM Gromnik",
-      "awayLogo": "/assets/teamsLogo/volleyGromnik.png",
-      "awayLogoAlt": "Logo gościa meczu",
-      "date": "21 Paź"
-    },
-    {
-      "id": "3",
-      "home": "GSKS Laskowa",
-      "homeLogo": "/assets/teamsLogo/GSKSLaskowa.jpg",
+      "home": "KS DALIN Myślenice",
+      "homeLogo": "/assets/teamsLogo/dalin.jpg",
       "homeLogoAlt": "Logo gospodarza meczu",
       "away": "MUKS Iskierka Tarnów",
       "awayLogo": "/assets/teamsLogo/iskierkaTarnow.png",
       "awayLogoAlt": "Logo gościa meczu",
-      "date": "28 Paź"
+      "date": "09 Lis"
     },
     {
-      "id": "4",
-      "home": "MUKS Iskierka Tarnów",
+      "id": "3",
+      "home": "MUKS ISKIERKA Tarnów",
       "homeLogo": "/assets/teamsLogo/iskierkaTarnow.png",
       "homeLogoAlt": "Logo gospodarza meczu",
       "away": "MKS Ryglice",
       "awayLogo": "/assets/teamsLogo/mksRyglice.jpg",
       "awayLogoAlt": "Logo gościa meczu",
-      "date": "04 Lis"
+      "date": "16 Lis"
+    },
+    {
+      "id": "4",
+      "home": "KS HUTNIK Kraków",
+      "homeLogo": "/assets/teamsLogo/hutnikKrakow.png",
+      "homeLogoAlt": "Logo gospodarza meczu",
+      "away": "MUKS ISKIERKA Tarnów",
+      "awayLogo": "/assets/teamsLogo/iskierkaTarnow.png",
+      "awayLogoAlt": "Logo gościa meczu",
+      "date": "23 Lis"
     },
     {
       "id": "5",
-      "home": "KS VOLLEY Podegrodzie",
+      "home": "MUKS ISKIERKA Tarnów",
       "homeLogo": "/assets/teamsLogo/iskierkaTarnow.png",
       "homeLogoAlt": "Logo gospodarza meczu",
-      "away": "MUKS Iskierka Tarnów",
-      "awayLogo": "/assets/teamsLogo/iskierkaTarnow.png",
+      "away": "MKS SKAWA Wadowice",
+      "awayLogo": "/assets/teamsLogo/wadowice.jpg",
       "awayLogoAlt": "Logo gościa meczu",
-      "date": "18 Lis"
+      "date": "30 Lis"
     }
   ]
 }

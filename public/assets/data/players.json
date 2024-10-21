@@ -1,20 +1,14 @@
 {
   "players": [
     {
-      "name": "Bartosz Ambroży",
-      "position": "Libero",
+      "name": "Jan Banaś",
+      "position": "Rozgrywający",
       "category": "kadeci",
       "img": "/assets/images/players/template.png"
     },
     {
-      "name": "Filip Babiec",
-      "position": "Przyjmujący",
-      "category": "seniorzy",
-      "img": "/assets/images/players/fBabiec.jpg"
-    },
-    {
-      "name": "Nataniel Banach",
-      "position": "Przyjmujący",
+      "name": "Paweł Budzyński",
+      "position": "Środkowy",
       "category": "kadeci",
       "img": "/assets/images/players/template.png"
     },
@@ -25,38 +19,8 @@
       "img": "/assets/images/players/kCzarnecki.jpg"
     },
     {
-      "name": "Eryk Dembiński",
+      "name": "Bartosz Dychus",
       "position": "Atakujący",
-      "category": "juniorzy",
-      "img": "/assets/images/players/template.png"
-    },
-    {
-      "name": "Szymon Gargaś",
-      "position": "Atakujący",
-      "category": "kadeci",
-      "img": "/assets/images/players/template.png"
-    },
-    {
-      "name": "Domingo Gromniak",
-      "position": "Przyjmujący",
-      "category": "seniorzy",
-      "img": "/assets/images/players/dGromniak.jpg"
-    },
-    {
-      "name": "Maksymilian Janik",
-      "position": "Przyjmujący",
-      "category": "seniorzy",
-      "img": "/assets/images/players/mJanik.jpg"
-    },
-    {
-      "name": "Dawid Kabat",
-      "position": "Środkowy",
-      "category": "juniorzy",
-      "img": "/assets/images/players/dKabat.jpg"
-    },
-    {
-      "name": "Alan Kasprzyk",
-      "position": "Przyjmujący",
       "category": "kadeci",
       "img": "/assets/images/players/template.png"
     },
@@ -67,16 +31,34 @@
       "img": "/assets/images/players/template.png"
     },
     {
-      "name": "Wojciech Kowal",
-      "position": "Rozgrywający",
+      "name": "Szymon Gargaś",
+      "position": "Przyjmujący",
       "category": "kadeci",
       "img": "/assets/images/players/template.png"
     },
     {
-      "name": "Bartek Krawiec",
+      "name": "Kacper Gdowski",
+      "position": "Środkowy",
+      "category": "kadeci",
+      "img": "/assets/images/players/template.png"
+    },
+    {
+      "name": "Dawid Gromniak",
+      "position": "Środkowy",
+      "category": "kadeci",
+      "img": "/assets/images/players/template.png"
+    },
+    {
+      "name": "Jakub Kobis",
+      "position": "Przyjmujący",
+      "category": "seniorzy",
+      "img": "/assets/images/players/template.png"
+    },
+    {
+      "name": "Szymon Kocowicz",
       "position": "Środkowy",
       "category": "juniorzy",
-      "img": "/assets/images/players/bKrawiec.jpg"
+      "img": "/assets/images/players/template.png"
     },
     {
       "name": "Michał Kuczek",
@@ -91,10 +73,34 @@
       "img": "/assets/images/players/aLechowicz.jpg"
     },
     {
+      "name": "Vitalii Los",
+      "position": "Przyjmujący",
+      "category": "juniorzy",
+      "img": "/assets/images/players/template.png"
+    },
+    {
+      "name": "Igor Łoś",
+      "position": "Rozgrywający",
+      "category": "kadeci",
+      "img": "/assets/images/players/template.png"
+    },
+    {
+      "name": "Krystian Matyjasik",
+      "position": "Przyjmujący",
+      "category": "juniorzy",
+      "img": "/assets/images/players/template.png"
+    },
+    {
       "name": "Oskar Mazur",
       "position": "Rozgrywający",
-      "category": "juniorzy",
+      "category": "seniorzy",
       "img": "/assets/images/players/oMazur.jpg"
+    },
+    {
+      "name": "Gabriel Miłkowski",
+      "position": "Przyjmujący",
+      "category": "kadeci",
+      "img": "/assets/images/players/template.png"
     },
     {
       "name": "Filip Molak",
@@ -103,38 +109,26 @@
       "img": "/assets/images/players/template.png"
     },
     {
-      "name": "Mateusz Nowak",
-      "position": "Libero",
-      "category": "seniorzy",
-      "img": "/assets/images/players/mNowak.jpg"
-    },
-    {
-      "name": "Radosław Nowak",
-      "position": "Środkowy",
+      "name": "Adam Olbracht",
+      "position": "Przyjmujący",
       "category": "juniorzy",
       "img": "/assets/images/players/template.png"
     },
     {
-      "name": "Adam Olbracht",
-      "position": "Rozgrywający",
-      "category": "kadeci",
+      "name": "Mateusz Porosło",
+      "position": "Przyjmujący",
+      "category": "juniorzy",
       "img": "/assets/images/players/template.png"
     },
     {
-      "name": "Jakub Prusak",
+      "name": "Piotr Półkoszek",
       "position": "Atakujący",
       "category": "juniorzy",
       "img": "/assets/images/players/template.png"
     },
     {
-      "name": "Grzegorz Rubacha",
-      "position": "Rozgrywający",
-      "category": "seniorzy",
-      "img": "/assets/images/players/gRubacha.jpg"
-    },
-    {
       "name": "Wojciech Rubacha",
-      "position": "Środkowy",
+      "position": "Atakujący",
       "category": "seniorzy",
       "img": "/assets/images/players/wRubacha.jpg"
     },
@@ -145,25 +139,37 @@
       "img": "/assets/images/players/pRura.jpg"
     },
     {
+      "name": "Szymon Rybski",
+      "position": "Przyjmujący",
+      "category": "juniorzy",
+      "img": "/assets/images/players/template.png"
+    },
+    {
       "name": "Bartłomiej Skawiński",
       "position": "Rozgrywający",
-      "category": "kadeci",
+      "category": "juniorzy",
       "img": "/assets/images/players/template.png"
     },
     {
       "name": "Radosław Skrzypek",
+      "position": "Przyjmujący",
+      "category": "seniorzy",
+      "img": "/assets/images/players/template.png"
+    },
+    {
+      "name": "Mateusz Soboń",
+      "position": "Środkowy",
+      "category": "kadeci",
+      "img": "/assets/images/players/template.png"
+    },
+    {
+      "name": "Sławomir Sorys",
       "position": "Libero",
-      "category": "juniorzy",
+      "category": "seniorzy",
       "img": "/assets/images/players/template.png"
     },
     {
-      "name": "Jakub Sukiennik",
-      "position": "Atakujący",
-      "category": "juniorzy",
-      "img": "/assets/images/players/template.png"
-    },
-    {
-      "name": "Bartłomiej Świder",
+      "name": "Przemysław Szarkowicz",
       "position": "Środkowy",
       "category": "juniorzy",
       "img": "/assets/images/players/template.png"
@@ -175,39 +181,33 @@
       "img": "/assets/images/players/template.png"
     },
     {
-      "name": "Miłosz Tyrka",
+      "name": "Wiktor Tutaj",
       "position": "Przyjmujący",
-      "category": "juniorzy",
-      "img": "/assets/images/players/mTyrka.jpg"
+      "category": "kadeci",
+      "img": "/assets/images/players/template.png"
     },
     {
-      "name": "Patryk Tyrka",
+      "name": "Damian Tymoszuk",
+      "position": "Przyjmujący",
+      "category": "kadeci",
+      "img": "/assets/images/players/template.png"
+    },
+    {
+      "name": "Marcel Witek",
       "position": "Libero",
       "category": "kadeci",
       "img": "/assets/images/players/template.png"
     },
     {
-      "name": "Patryk Wilczyński",
-      "position": "Środkowy",
+      "name": "Tomasz Wrona",
+      "position": "Przyjmujący",
       "category": "kadeci",
-      "img": "/assets/images/players/template.png"
-    },
-    {
-      "name": "Marcel",
-      "position": "Witek",
-      "category": "kadeci",
-      "img": "/assets/images/players/template.png"
-    },
-    {
-      "name": "Michał Wójcik",
-      "position": "Libero",
-      "category": "juniorzy",
       "img": "/assets/images/players/template.png"
     },
     {
       "name": "Mateusz Zabawa",
-      "position": "Przyjmujący",
-      "category": "kadeci",
+      "position": "Rozgrywający",
+      "category": "juniorzy",
       "img": "/assets/images/players/template.png"
     },
     {
@@ -215,12 +215,6 @@
       "position": "Libero",
       "category": "seniorzy",
       "img": "/assets/images/players/nZacharek.jpg"
-    },
-    {
-      "name": "Patryk Zieliński",
-      "position": "Libero",
-      "category": "kadeci",
-      "img": "/assets/images/players/template.png"
     }
   ],
   "coaches": [

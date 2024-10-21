@@ -9,6 +9,9 @@ import OświadczenieZawodnika from './assets/oświadczenieZawodnika.docx';
 import PrawaIObowiązki from './assets/prawaIObowiązki.pdf';
 import StatutMuksIskierkaTarnów from './assets/statutMuksIskierkaTarnów.pdf';
 import RegulaminSkladekCzlonkowskich from './assets/RegulaminSkladekCzlonkowskich.pdf';
+import StandardyOchronyMaloletnich from './assets/StandardyOchronyMaloletnich.pdf';
+import SOMShort from './assets/STANDARDYOCHRONYMALOLETNICH-wersjaskrocona.pdf';
+import SOMLong from './assets/STANDARDYOCHRONYMALOLETNICH-wersjapelna.pdf';
 
 import './club-download.scss';
 
@@ -38,6 +41,18 @@ const ClubDownload = () => {
     {
       'name': 'Logo',
       'link': Logo
+    },
+    {
+      'name': 'Standardy Ochrony Małoletnich',
+      'link': StandardyOchronyMaloletnich
+    },
+    {
+      'name': 'SOM - wersja skrócona',
+      'link': SOMShort
+    },
+    {
+      'name': 'SOM - wersja pełna',
+      'link': SOMLong
     }
   ];
 
